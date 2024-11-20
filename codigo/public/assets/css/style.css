@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -8,14 +9,6 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(224, 224, 224, 1);
-    padding-top: 100px;
-    padding-bottom: 40px;
-    overflow-x: hidden;
-}
-
-.dark-theme {
-    background-color: black;
-    color: white;
 }
 
 .cabecalho {
@@ -25,42 +18,28 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
     box-sizing: border-box;
 }
-.cabecalho .aparencia{
-    background-color:rgba(34, 77, 122, 1) ;
-}
-.cabecalho .aparencia,
-.cabecalho .config,
-.cabecalho .conta,
-.cabecalho .notificacao {
-    width: 40px; 
-    height: 40px; 
-    margin-left: 10px;
-}
-.aparencia .aparencia{
-    background-color:rgba(34, 77, 122, 1) ;
-}
+
 .cabecalho .logo {
-    width: 120px;
+    width: 100px;
     height: auto;
 }
-.dark-theme {
-    background-color: black;
-    color: white;
-}
+
 .cabecalho .icones {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
-button {
-    background-color: rgba(34, 77, 122, 1);
+
+.cabecalho .icones a {
+    margin-left: 10px;
 }
+
+.cabecalho .icones img {
+    width: 40px; 
+    height: auto; 
+}
+
 footer {
     background-color: rgba(34, 77, 122, 1);
     color: white;
@@ -68,6 +47,5 @@ footer {
     padding: 10px;
     font-size: 14px;
     width: 100%;
-    bottom: 0;
-    left: 0;
+    margin-top: auto;
 }

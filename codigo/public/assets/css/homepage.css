@@ -1,54 +1,4 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(224, 224, 224, 1);
-}
-.dark-theme {
-    background-color: black;
-    color: white;
-}
-.cabecalho {
-    background-color: rgba(34, 77, 122, 1);
-    color: white;
-    padding: 0 20px;
-    align-items: center;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-.cabecalho .aparencia,
-.cabecalho .config,
-.cabecalho .conta,
-.cabecalho .notificacao {
-    width: 40px; 
-    height: 40px; 
-    margin-left: 10px;
-}
-.cabecalho .logo {
-    width: 120px;
-    height: auto;
-    margin-right: auto;
-}
-.cabecalho .icones {
-    display: flex;
-    align-items: center;
-}
-button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-button img {
-    display: block; 
-    width: 30px; 
-    height: auto;
-}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -118,22 +68,4 @@ button img {
     height: 100%; 
     width: 100%; 
     align-items: center; 
-}
-
-footer {
-    background-color: rgba(34, 77, 122, 1);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-    margin-top: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-}
-
-footer p {
-    margin: 0;
 }
