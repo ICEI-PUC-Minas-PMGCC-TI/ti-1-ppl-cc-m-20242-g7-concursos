@@ -2,26 +2,32 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: 
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Böuch Soncin Rocha
+    given-names: Lawer
+  - family-names: Matos Nogueira
+    given-names: Gabriel
+  - family-names: Lopes Oliveira
+    given-names: Gustavo
+  - family-names: Cristina Borges
+    given-names: Isabel
+  - family-names: de Deus Natividade Oliveira Saraiva
+    given-names: João Paulo
+  - family-names: Campos Soares
+    given-names: Nayron
+  - family-names: Guimaraes Matos
+    given-names: Rafael
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Oliveira Caetano
+    given-names: João Carlos
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Mara Freitas Diniz
+    given-names: Luciana
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
 keywords:
   - 
   - 
