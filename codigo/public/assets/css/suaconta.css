@@ -1,4 +1,5 @@
 body, html {
+    zoom: 90%;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -80,12 +81,4 @@ body, html {
     background-color: rgba(34, 77, 122, 1);
     position: absolute;
     bottom: 0;
-}
-
-footer {
-    position: fixed;
-}
-
-.cabecalho {
-    position: fixed;
 }
