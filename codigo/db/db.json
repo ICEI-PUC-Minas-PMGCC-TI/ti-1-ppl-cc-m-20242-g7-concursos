@@ -28,7 +28,7 @@
       "titulo": "Algebrista Volume 1 Teoria e Exercícios de Fixação",
       "materia": "Matemática",
       "editora": "Ciência Moderna",
-      "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em ��lgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio."
+      "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em álgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio."
     },
     {
       "id": "2",
@@ -91,71 +91,37 @@
       "localizacao": "Paraná",
       "id": "c84e"
     }
+  ],
+  "simulados": [
+    {
+      "id": 1,
+      "nome": "Simulado ENEM 2024",
+      "concurso": "ENEM",
+      "data": "2024-11-20"
+    },
+    {
+      "id": 2,
+      "nome": "Simulado Concurso INSS",
+      "concurso": "INSS",
+      "data": "2024-12-01"
+    },
+    {
+      "id": 3,
+      "nome": "Simulado Concurso Banco do Brasil",
+      "concurso": "Banco do Brasil",
+      "data": "2024-12-10"
+    },
+    {
+      "id": 4,
+      "nome": "Simulado Concurso Polícia Federal",
+      "concurso": "Polícia Federal",
+      "data": "2024-11-25"
+    },
+    {
+      "id": 5,
+      "nome": "Simulado Concurso Receita Federal",
+      "concurso": "Receita Federal",
+      "data": "2024-12-15"
+    }
   ]
-  {
-    "simulados": [
-      {
-        "id": 1,
-        "nome": "Simulado ENEM 2024",
-        "concurso": "ENEM",
-        "data": "2024-11-20"
-      },
-      {
-        "id": 2,
-        "nome": "Simulado Concurso INSS",
-        "concurso": "INSS",
-        "data": "2024-12-01"
-      },
-      {
-        "id": 3,
-        "nome": "Simulado Concurso Banco do Brasil",
-        "concurso": "Banco do Brasil",
-        "data": "2024-12-10"
-      },
-      {
-        "id": 4,
-        "nome": "Simulado Concurso Polícia Federal",
-        "concurso": "Polícia Federal",
-        "data": "2024-11-25"
-      },
-      {
-        "id": 5,
-        "nome": "Simulado Concurso Receita Federal",
-        "concurso": "Receita Federal",
-        "data": "2024-12-15"
-      }
-    ],
-    "concursos": [
-      {
-        "id": 1,
-        "nome": "ENEM",
-        "orgao": "MEC",
-        "dataProva": "2024-11-24"
-      },
-      {
-        "id": 2,
-        "nome": "Concurso INSS",
-        "orgao": "INSS",
-        "dataProva": "2024-12-05"
-      },
-      {
-        "id": 3,
-        "nome": "Concurso Banco do Brasil",
-        "orgao": "Banco do Brasil",
-        "dataProva": "2024-12-12"
-      },
-      {
-        "id": 4,
-        "nome": "Concurso Polícia Federal",
-        "orgao": "Polícia Federal",
-        "dataProva": "2024-11-30"
-      },
-      {
-        "id": 5,
-        "nome": "Concurso Receita Federal",
-        "orgao": "Receita Federal",
-        "dataProva": "2024-12-20"
-      }
-    ]
-  }
 }

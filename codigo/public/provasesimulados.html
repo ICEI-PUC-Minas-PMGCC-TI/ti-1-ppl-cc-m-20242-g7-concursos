@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,20 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/provasesimulados.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <a href="homepage.html"><img src="./assets/images/logo.png" class="logo" alt="Logo da VagaCerta"></a>
         <div class="icones">
             <a href="suaconta.html"><img src="./assets/images/suaconta.png" class="conta" alt="Sua conta"></a>
             <a href="config.html"><img src="./assets/images/config.png" class="config" alt="Configurações"></a>
-            <a href="notificacao.html"><img src="./assets/images/notificacoes.png" class="notificacao" alt="Notificações"></a>
+            <a href="notificacao.html"><img src="./assets/images/notificacoes.png" class="notificacao"
+                    alt="Notificações"></a>
         </div>
     </header>
+    <h1>Pesquisa de Concursos e Simulados</h1>
+    <input type="text" id="search" placeholder="Pesquisar..." oninput="buscar()">
+    <ul id="resultados"></ul>
     <div id="caixinha">
         <p>Simulado de Matemática Básica</p>
         <p>15/10/2025</p>
@@ -24,8 +30,8 @@
             <p>60min</p>
         </div>
         <div id="dif">
-        <p>Dificuldade:</p>
-        <p>Intermediário</p>
+            <p>Dificuldade:</p>
+            <p>Intermediário</p>
         </div>
         <div id="iniciar">
             <button>Saber Mais</button>
@@ -39,8 +45,8 @@
             <p>60min</p>
         </div>
         <div id="dif">
-        <p>Dificuldade:</p>
-        <p>Intermediário</p>
+            <p>Dificuldade:</p>
+            <p>Intermediário</p>
         </div>
         <div id="iniciar">
             <button>Saber Mais</button>
@@ -54,11 +60,11 @@
             <p>60min</p>
         </div>
         <div id="dif">
-        <p>Dificuldade:</p>
-        <p>Intermediário</p>
+            <p>Dificuldade:</p>
+            <p>Intermediário</p>
         </div>
         <div id="iniciar">
-        <button>Saber Mais</button>
+            <button>Saber Mais</button>
         </div>
     </div>
     <footer>
@@ -66,4 +72,6 @@
         <p>Contato: vagacerta@gmail.com</p>
     </footer>
 </body>
+<script src="barradepesquisap&s.js"></script>
+
 </html>
