@@ -2,7 +2,7 @@ const API_SIMULADOS = "http://localhost:3000/simulados";
 const API_CONCURSOS = "http://localhost:3000/concursos";
 
 async function buscar() {
-  const query = document.getElementById("search").value.toLowerCase();
+  const consulta = document.getElementById("search").value.toLowerCase();
   const resultados = document.getElementById("resultados");
   resultados.innerHTML = "";
 
@@ -16,13 +16,13 @@ async function buscar() {
     const concursos = await concursosRes.json();
 
     const simuladosFiltrados = simulados.filter((simulado) =>
-      simulado.nome.toLowerCase().includes(query) ||
-      simulado.concurso.toLowerCase().includes(query)
+      simulado.nome.toLowerCase().includes(consulta) ||
+      simulado.concurso.toLowerCase().includes(consulta)
     );
 
     const concursosFiltrados = concursos.filter((concurso) =>
-      concurso.nome.toLowerCase().includes(query) ||
-      concurso.orgao.toLowerCase().includes(query)
+      concurso.nome.toLowerCase().includes(consulta) ||
+      concurso.orgao.toLowerCase().includes(consulta)
     );
 
     if (simuladosFiltrados.length > 0 || concursosFiltrados.length > 0) {
@@ -45,3 +45,14 @@ async function buscar() {
     resultados.innerHTML = "<li>Erro ao buscar dados</li>";
   }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const caixinhas = document.querySelectorAll('.caixinha');
+
+  caixinhas.forEach((caixinha) => {
+    const button = caixinha.querySelector('button');
+    button.addEventListener('click', () => {
+      console.log("Informações do Simulado");
+    });
+  });
+});
