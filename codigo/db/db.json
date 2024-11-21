@@ -44,7 +44,6 @@
       "editora": "Saraiva",
       "descricao": "Esta edição já está de acordo com a nova ortografia.Você acha matemática complicada e não se lembra mais do que estudou? Acaba se atrapalhando quando o assunto é Raciocínio Lógico? Quer brigar por um cargo público (auditor fiscal, oficial de justiça, agente de polícia, técnico da Receita Federal, analista de finanças etc.)? Você sabe que vai precisar direcionar bem os seus estudos. A competição é acirrada e qualquer ponto pode fazer a diferença.Matemática e Lógica para Concursos, elaborada pelo professor José Luiz de Morais, especialista em preparação de candidatos a concursos públicos, reúne toda a teoria necessária e muito cobrada em concursos, para ajudar você a se preparar melhor nos estudos."
     }
-    
   ],
   "concursos": [
     {
@@ -93,4 +92,70 @@
       "id": "c84e"
     }
   ]
+  {
+    "simulados": [
+      {
+        "id": 1,
+        "nome": "Simulado ENEM 2024",
+        "concurso": "ENEM",
+        "data": "2024-11-20"
+      },
+      {
+        "id": 2,
+        "nome": "Simulado Concurso INSS",
+        "concurso": "INSS",
+        "data": "2024-12-01"
+      },
+      {
+        "id": 3,
+        "nome": "Simulado Concurso Banco do Brasil",
+        "concurso": "Banco do Brasil",
+        "data": "2024-12-10"
+      },
+      {
+        "id": 4,
+        "nome": "Simulado Concurso Polícia Federal",
+        "concurso": "Polícia Federal",
+        "data": "2024-11-25"
+      },
+      {
+        "id": 5,
+        "nome": "Simulado Concurso Receita Federal",
+        "concurso": "Receita Federal",
+        "data": "2024-12-15"
+      }
+    ],
+    "concursos": [
+      {
+        "id": 1,
+        "nome": "ENEM",
+        "orgao": "MEC",
+        "dataProva": "2024-11-24"
+      },
+      {
+        "id": 2,
+        "nome": "Concurso INSS",
+        "orgao": "INSS",
+        "dataProva": "2024-12-05"
+      },
+      {
+        "id": 3,
+        "nome": "Concurso Banco do Brasil",
+        "orgao": "Banco do Brasil",
+        "dataProva": "2024-12-12"
+      },
+      {
+        "id": 4,
+        "nome": "Concurso Polícia Federal",
+        "orgao": "Polícia Federal",
+        "dataProva": "2024-11-30"
+      },
+      {
+        "id": 5,
+        "nome": "Concurso Receita Federal",
+        "orgao": "Receita Federal",
+        "dataProva": "2024-12-20"
+      }
+    ]
+  }
 }
