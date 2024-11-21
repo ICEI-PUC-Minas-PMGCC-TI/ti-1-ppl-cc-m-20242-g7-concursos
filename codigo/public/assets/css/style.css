@@ -19,6 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .cabecalho .logo {
@@ -36,8 +37,8 @@ body {
 }
 
 .cabecalho .icones img {
-    width: 40px; 
-    height: auto; 
+    width: 40px;
+    height: auto;
 }
 
 footer {
@@ -48,4 +49,5 @@ footer {
     font-size: 14px;
     width: 100%;
     margin-top: auto;
+    position: relative;
 }
