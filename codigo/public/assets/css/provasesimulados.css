@@ -3,6 +3,7 @@ html {
     overflow-x: hidden;
 }
 body {
+    zoom: 70%; /*Gabriel: Adicionei esse zoom para que o usuário consiga ver mais opções ao invês de ficar limitado à poucos concursos ocupando quase toda sua tela*/
     font-family: Arial, sans-serif;
     width: 100%;
     overflow-x: hidden;
