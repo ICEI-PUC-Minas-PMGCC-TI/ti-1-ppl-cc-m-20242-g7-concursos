@@ -47,49 +47,56 @@
   ],
   "concursos": [
     {
-      "nome": "Concurso IBGE",
-      "dataInscricao": "15/07/2024",
-      "data": "10/11/2024",
-      "salario": 3500,
-      "nivelEnsino": "nível médio",
-      "localizacao": "São Paulo",
-      "id": "5f13"
+      "nome": "Concurso Prefeitura de São Paulo 2024",
+      "dataInscricao": "2024-01-15",
+      "dataProva": "2024-03-10",
+      "categoria": "Administração Pública",
+      "nivelEnsino": "Superior",
+      "banca": "Fundação Vunesp",
+      "localizacao": "São Paulo, SP",
+      "horario": "14:00",
+      "descricao": "Concurso para diversos cargos administrativos na Prefeitura de São Paulo.",
+      "link": "https://www.prefeitura.sp.gov.br/concursos",
+      "materiais": "Edital completo, apostilas para administração pública"
     },
     {
-      "nome": "Concurso PF",
-      "dataInscricao": "01/08/2024",
-      "data": "05/12/2024",
-      "salario": 12000,
-      "nivelEnsino": "nível superior",
-      "localizacao": "Brasília",
-      "id": "3731"
+      "nome": "Concurso Tribunal de Justiça do Estado de São Paulo 2024",
+      "dataInscricao": "2024-02-01",
+      "dataProva": "2024-04-05",
+      "categoria": "Jurídica",
+      "nivelEnsino": "Superior",
+      "banca": "Vunesp",
+      "localizacao": "São Paulo, SP",
+      "horario": "09:00",
+      "descricao": "O concurso oferece vagas para diversos cargos no Tribunal de Justiça do Estado de São Paulo.",
+      "link": "https://www.tjsp.jus.br/concursos",
+      "materiais": "Edital, apostilas para direito, legislação específica"
     },
     {
-      "nome": "Concurso TRE",
-      "dataInscricao": "20/05/2024",
-      "data": "30/09/2024",
-      "salario": 8000,
-      "nivelEnsino": "nível superior",
-      "localizacao": "Rio de Janeiro",
-      "id": "fb36"
+      "nome": "Concurso IBGE 2024 - Censo Demográfico",
+      "dataInscricao": "2024-03-01",
+      "dataProva": "2024-06-15",
+      "categoria": "Pesquisa e Estatística",
+      "nivelEnsino": "Médio",
+      "banca": "CESPE",
+      "localizacao": "Em todo o Brasil",
+      "horario": "A definir",
+      "descricao": "Concurso para atuação como recenseador do Censo Demográfico do IBGE 2024.",
+      "link": "https://www.ibge.gov.br/concursos",
+      "materiais": "Edital, apostilas de matemática básica, geografia"
     },
     {
-      "nome": "Concurso Receita Federal",
-      "dataInscricao": "10/09/2024",
-      "data": "15/01/2025",
-      "salario": 15000,
-      "nivelEnsino": "nível superior",
-      "localizacao": "Distrito Federal",
-      "id": "3621"
-    },
-    {
-      "nome": "Concurso Banco do Brasil",
-      "dataInscricao": "05/10/2024",
-      "data": "20/01/2025",
-      "salario": 6000,
-      "nivelEnsino": "nível médio",
-      "localizacao": "Paraná",
-      "id": "c84e"
+      "nome": "Concurso Universidade de Brasília 2024",
+      "dataInscricao": "2024-04-05",
+      "dataProva": "2024-08-20",
+      "categoria": "Educação",
+      "nivelEnsino": "Superior",
+      "banca": "Instituto Acesso",
+      "localizacao": "Brasília, DF",
+      "horario": "10:00",
+      "descricao": "Vagas para professores e técnico-administrativos na Universidade de Brasília.",
+      "link": "https://www.unb.br/concursos",
+      "materiais": "Edital, apostilas de didática e concurso público"
     }
   ],
   "simulados": [
@@ -124,4 +131,5 @@
       "data": "2024-12-15"
     }
   ]
+
 }
