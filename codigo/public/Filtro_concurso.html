@@ -4,66 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pesquisa de concursos com filtros avançados">
     <title>Pesquisa de Concursos</title>
-    <link rel="stylesheet" href="/codigo/public/assets/css/filtro_conc.css">
+    <link rel="stylesheet" href="filtro_conc.css">
 </head>
 
 <body>
-    <header>
-        <h1>Pesquisa de Concursos</h1>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Pesquisa de Concursos</h1>
+        </header>
 
-    <main>
-        <form>
-            <div class="filtros">
-                <div>
-                    <label for="nome">Nome</label>
+        <section id="filtros">
+            <h2>Filtros</h2>
+            <form id="form-filtros">
+                <div class="form-group">
+                    <label for="nome">Nome do Concurso:</label>
                     <input type="text" id="nome" name="nome" placeholder="Digite o nome do concurso">
                 </div>
 
-                <div>
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" name="cidade" placeholder="Digite a cidade">
-                </div>
-
-                <div>
-                    <label for="entidade">Entidade/Empresa</label>
-                    <input type="text" id="entidade" name="entidade" placeholder="Digite a entidade ou empresa">
-                </div>
-
-                <div>
-                    <label for="data">Data</label>
+                <div class="form-group">
+                    <label for="data">Data:</label>
                     <input type="date" id="data" name="data">
                 </div>
 
-                <div>
-                    <label for="local">Local</label>
-                    <input type="text" id="local" name="local" placeholder="Digite o local">
+                <div class="form-group">
+                    <label for="nivelEnsino">Nível de Ensino:</label>
+                    <select id="nivelEnsino" name="nivelEnsino">
+            <option value="">Selecione</option>
+            <option value="nível médio">Nível Médio</option>
+            <option value="nível superior">Nível Superior</option>
+            <option value="nível técnico">Nível Técnico</option>
+          </select>
                 </div>
-            </div>
 
-            <button type="submit" class="btn-pesquisar">Pesquisar</button>
-        </form>
+                <div class="form-group">
+                    <label for="localizacao">Localização:</label>
+                    <input type="text" id="localizacao" name="localizacao" placeholder="Digite a localização">
+                </div>
 
-        <div class="resultados">
-            <div class="concurso">
-                <h3>Concurso Público ABC</h3>
-                <p><strong>Cidade:</strong> Belo Horizonte</p>
-                <p><strong>Entidade:</strong> Prefeitura de BH</p>
-                <p><strong>Data:</strong> 15/12/2024</p>
-                <p><strong>Local:</strong> Auditório Municipal</p>
-            </div>
+                <button type="button" id="btn-pesquisar">Pesquisar</button>
+            </form>
+        </section>
 
-            <div class="concurso">
-                <h3>Processo Seletivo XYZ</h3>
-                <p><strong>Cidade:</strong> São Paulo</p>
-                <p><strong>Entidade:</strong> Governo do Estado</p>
-                <p><strong>Data:</strong> 20/01/2025</p>
-                <p><strong>Local:</strong> Centro de Convenções</p>
-            </div>
-        </div>
-    </main>
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <div id="lista-resultados"></div>
+        </section>
+    </div>
+
+    <script src="/codigo/public/assets/js/filtro_conc.js"></script>
 </body>
 
 </html>
