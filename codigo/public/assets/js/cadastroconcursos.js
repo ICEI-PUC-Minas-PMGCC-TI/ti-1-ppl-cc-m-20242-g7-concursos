@@ -133,5 +133,11 @@ function editarConcurso(id, nome, dataInscricao, dataProva, categoria, nivelEnsi
     document.getElementById('materiais-concurso').value = materiais;
 
 }
+function criarBotaoFavoritar(concurso) {
+    const botao = document.createElement('button');
+    botao.textContent = 'Favoritar';
+    botao.onclick = () => adicionarFavorito(concurso);
+    return botao;
+}
   window.onload = mostrarConcursos;
   
