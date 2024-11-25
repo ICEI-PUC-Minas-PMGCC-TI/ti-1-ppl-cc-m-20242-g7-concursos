@@ -133,11 +133,56 @@ function editarConcurso(id, nome, dataInscricao, dataProva, categoria, nivelEnsi
     document.getElementById('materiais-concurso').value = materiais;
 
 }
-function criarBotaoFavoritar(concurso) {
-    const botao = document.createElement('button');
-    botao.textContent = 'Favoritar';
-    botao.onclick = () => adicionarFavorito(concurso);
-    return botao;
+function mostrarConcursos() {
+    const concursos = carregarDoLocalStorage(); // Altere para carregar os concursos salvos localmente
+    const listaConcursos = document.getElementById('lista-concursos');
+    
+    listaConcursos.innerHTML = '';
+
+    concursos.forEach(concurso => {
+        const concursoElement = document.createElement('div');
+        concursoElement.classList.add('concurso');
+        concursoElement.innerHTML = `
+            <h3>${concurso.nome}</h3>
+            <p><strong>Data Inscrição:</strong> ${concurso.dataInscricao}</p>
+            <p><strong>Data Prova:</strong> ${concurso.dataProva}</p>
+            <p><strong>Categoria:</strong> ${concurso.categoria}</p>
+            <p><strong>Nível de Ensino:</strong> ${concurso.nivelEnsino}</p>
+            <p><strong>Banca:</strong> ${concurso.banca}</p>
+            <p><strong>Localização:</strong> ${concurso.localizacao}</p>
+            <p><strong>Horário:</strong> ${concurso.horario}</p>
+            <p><strong>Descrição:</strong> ${concurso.descricao}</p>
+            <p><strong>Link:</strong> <a href="${concurso.link}" target="_blank">${concurso.link}</a></p>
+            <p><strong>Materiais:</strong> ${concurso.materiais}</p>
+            <div class="botoes">
+                <button class="botao" onclick="adicionarFavorito(${JSON.stringify(concurso)})">Favoritar</button>
+                <button class="botao" onclick="excluirConcurso(${concurso.id})">Excluir</button>
+                <button class="botao" onclick="editarConcurso(${concurso.id})">Editar</button>
+            </div>
+        `;
+        listaConcursos.appendChild(concursoElement);
+    });
+    function adicionarFavorito(concurso) {
+        // Recupera os favoritos existentes do Local Storage
+        const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+        
+        // Verifica se o concurso já está nos favoritos
+        if (favoritos.some(f => f.id === concurso.id)) {
+            alert('Concurso já está nos favoritos!');
+            return;
+        }
+        
+        // Adiciona o concurso aos favoritos e salva no Local Storage
+        favoritos.push(concurso);
+        localStorage.setItem('favoritos', JSON.stringify(favoritos));
+        alert('Concurso adicionado aos favoritos!');
+    }
+    
+    function carregarFavoritos() {
+        // Recupera os favoritos do Local Storage
+        return JSON.parse(localStorage.getItem('favoritos')) || [];
+    }
+    
 }
   window.onload = mostrarConcursos;
   
