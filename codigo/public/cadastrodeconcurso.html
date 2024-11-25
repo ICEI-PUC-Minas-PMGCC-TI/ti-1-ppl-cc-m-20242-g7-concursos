@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Concursos</title>
-    <link rel="stylesheet" href="/codigo/public/assets/css/style.css">
-    <link rel="stylesheet" href="/codigo/public/assets/css/cadastrocs.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/cadastrocs.css">
 </head>
 <body>
     <header class="cabecalho">
-        <a href="homepage.html"><img src="/codigo/public/assets/images/logo.png" class="logo"></a>
+        <a href="homepage.html"><img src="./assets/images/logo.png" class="logo"></a>
         <div class="icones">
-            <a href="suaconta.html"><img src="/codigo/public/assets/images/suaconta.png" class="conta"></a>
-            <a href="config.html"><img src="/codigo/public/assets/images/config.png" class="config"></a>
-            <a href="notificacao.html"><img src="/codigo/public/assets/images/notificacoes.png" class="notificacao"></a>
+            <a href="suaconta.html"><img src="./assets/images/suaconta.png" class="conta"></a>
+            <a href="config.html"><img src="./assets/images/config.png" class="config"></a>
+            <a href="notificacao.html"><img src="./assets/images/notificacoes.png" class="notificacao"></a>
         </div>
     </header>
     <div class="container">
         <h1>CADASTRO DE CONCURSOS</h1>
-        <form id="cadastro-form">
+        <form id="cadastro-form" onsubmit="cadastrarConcurso(event)">
             <div class="form-group upload-group">
                 <div class="upload-btn"></div>
             </div>
@@ -70,7 +70,7 @@
             <button type="submit">CADASTRAR</button>
         </form>
     </div>
-    <script src="/codigo/public/assets/js/cadastroconcursos.js"></script>
+    <script src="./assets/js/cadastroconcursos.js"></script>
 </body>
 <footer>
     <p>&copy; 2024 VagaCerta. Todos os direitos reservados.</p>
