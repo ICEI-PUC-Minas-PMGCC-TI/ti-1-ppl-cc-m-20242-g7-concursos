@@ -132,6 +132,138 @@
       "concurso": "Receita Federal",
       "data": "2024-12-15"
     }
-  ]
-
+  ],
+  "cargos": [
+    {
+      "nome": "Policia Militar",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 4,
+          "livro": "Gramática Completa para Concursos e Vestibulares"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 3,
+          "livro": "Raciocínio Lógico e Matemática para Concursos"
+        },
+        {
+          "nome": "Informática",
+          "prioridade": 5,
+          "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 1,
+          "livro": "Manual de Direito Administrativo"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 2,
+          "livro": "Direitos Fundamentais e Controle de Constitucionalidade"
+        }
+      ]
+    },
+    {
+      "nome": "Auditor Fiscal",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 5,
+          "livro": "Gramática Completa para Concursos e Vestibulares"
+        },
+        {
+          "nome": "Direito Tributário",
+          "prioridade": 1,
+          "livro": "Manual de Direito Tributário"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 4,
+          "livro": "Raciocínio Lógico e Matemática para Concursos"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 3,
+          "livro": "Manual de Direito Administrativo"
+        },
+        {
+          "nome": "Contabilidade",
+          "prioridade": 2,
+          "livro": "Contabilidade Geral Para Concurso Público"
+        }
+      ]
+    },
+    {
+      "nome": "Analista Judiciario",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 7,
+          "livro": "Gramática Completa para Concursos e Vestibulares"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 6,
+          "livro": "RACIOCÍNIO LÓGICO E MATEMÁTICA PARA CONCURSOS"
+        },
+        {
+          "nome": "Informática",
+          "prioridade": 5,
+          "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 3,
+          "livro": "Manual de Direito Administrativo"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 2,
+          "livro": "Direitos fundamentais e controle de constitucionalidade - Estudos de Direito Constitucional"
+        },
+        {
+          "nome": "Direito Penal",
+          "prioridade": 1,
+          "livro": "Direito Penal - Parte Geral"
+        },
+        {
+          "nome": "Noções de Direito das Pessoas com Deficiência",
+          "prioridade": 4,
+          "livro": "DIREITOS HUMANOS DAS PESSOAS COM DEFICIÊNCIA"
+        }
+      ]
+    },
+    {
+      "nome": "Engenharia Civil",
+      "materias": [
+        {
+          "nome": "Estruturas",
+          "prioridade": 1,
+          "livro": "Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado"
+        },
+        {
+          "nome": "Geotécnica",
+          "prioridade": 2,
+          "livro": "Fundamentos De Engenharia Geotécnica"
+        },
+        {
+          "nome": "Fiscalização, Contratos e Licitações",
+          "prioridade": 3,
+          "livro": "Manual de Obras e Serviços de Engenharia: Fundamentos da Licitação e Contratação"
+        },
+        {
+          "nome": "Planejamento e Orçamento",
+          "prioridade": 4,
+          "livro": "Planejamento e Controle de Obras"
+        },
+        {
+          "nome": "Análise Estrutural",
+          "prioridade": 5,
+          "livro": "Análise Estrutural Usando Métodos Clássicos e Métodos Matriciais"
+        }
+      ]
+    }
+  ],
+  "cronogramas": []
 }
