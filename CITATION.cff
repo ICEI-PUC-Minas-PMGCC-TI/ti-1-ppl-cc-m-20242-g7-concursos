@@ -31,7 +31,7 @@ authors:
 keywords: Concursos, editais, vagas públicas, editais de concurso, concursos públicos.
   - 
   - 
-repository-code: 
+repository-code: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g7-concursos
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
