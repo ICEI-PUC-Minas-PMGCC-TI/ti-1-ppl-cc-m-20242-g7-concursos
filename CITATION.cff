@@ -28,9 +28,12 @@ authors:
     affiliation: PUC Minas
     family-names: Vieira Carneiro
     given-names: Rommel
-keywords: Concursos, editais, vagas públicas, editais de concurso, concursos públicos.
-  - 
-  - 
+keywords:
+ - Concursos
+ - Editais
+ - Vagas públicas
+ - Editais de concurso
+ - Concursos públicos.
 repository-code: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-ppl-cc-m-20242-g7-concursos
 license: CC-BY-4.0
 version: 1.0.0
