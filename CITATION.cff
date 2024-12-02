@@ -1,6 +1,6 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: VagaCerta
 authors:
   - family-names: Böuch Soncin Rocha
     given-names: Lawer
@@ -28,7 +28,7 @@ authors:
     affiliation: PUC Minas
     family-names: Vieira Carneiro
     given-names: Rommel
-keywords:
+keywords: Concursos, editais, vagas públicas, editais de concurso, concursos públicos.
   - 
   - 
 repository-code: 
