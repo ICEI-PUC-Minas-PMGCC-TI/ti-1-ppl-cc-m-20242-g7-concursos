@@ -331,48 +331,297 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
 
-##### Estrutura de Dados - Contatos   ⚠️ EXEMPLO ⚠️
+##### Estrutura de Dados - Livros
 
-Contatos da aplicação
+Livros da aba de estudos
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
+      "id": "1",
+      "titulo": "Algebrista Volume 1 Teoria e Exercícios de Fixação",
+      "materia": "Matemática",
+      "editora": "Ciência Moderna",
+      "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em álgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio."
+    },
+    {
+      "id": "2",
+      "titulo": "Gramática completa para concursos e vestibulares",
+      "materia": "Portugues",
+      "editora": "Saraiva",
+      "descricao": "Gramática completa para concursos e vestibulares traz a teoria gramatical completa explicada de um modo simples e mais de 500 testes de múltipla escolha selecionados de concursos públicos e vestibulares promovidos por diversas instituições brasileiras, constantes em uma lista no final do volume. Esta obra foi pensada para tornar o estudo da Gramática uma atividade mais prazerosa, distanciando-a daquela idéia de informações maçantes difíceis de decifrar."
+    },
+    {
+      "id": "3",
+      "titulo": "Matemática e lógica para concursos",
+      "materia": "Matemática",
+      "editora": "Saraiva",
+      "descricao": "Esta edição já está de acordo com a nova ortografia.Você acha matemática complicada e não se lembra mais do que estudou? Acaba se atrapalhando quando o assunto é Raciocínio Lógico? Quer brigar por um cargo público (auditor fiscal, oficial de justiça, agente de polícia, técnico da Receita Federal, analista de finanças etc.)? Você sabe que vai precisar direcionar bem os seus estudos. A competição é acirrada e qualquer ponto pode fazer a diferença.Matemática e Lógica para Concursos, elaborada pelo professor José Luiz de Morais, especialista em preparação de candidatos a concursos públicos, reúne toda a teoria necessária e muito cobrada em concursos, para ajudar você a se preparar melhor nos estudos."
+    }
   
 ```
 
-##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
+##### Estrutura de Dados - Usuários
 
 Registro dos usuários do sistema utilizados para login e para o perfil do sistema
 
 ```json
   {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
+      "id": "1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "2",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    },
+    {
+      "login": "rommel",
+      "senha": "123",
+      "nome": "Rommel",
+      "email": "rommel@gmail.com",
+      "id": "3"
+    }
 ```
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração
->
-> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
->
-> **Orientações:**
->
-> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
-> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
+##### Estrutura de Dados - Concursos
+
+Lista de concursos disponibilizados
+
+```json
+  {
+      "nome": "Concurso Prefeitura de São Paulo 2024",
+      "dataInscricao": "2024-01-15",
+      "dataProva": "2024-03-10",
+      "categoria": "Administração Pública",
+      "nivelEnsino": "Superior",
+      "banca": "Fundação Vunesp",
+      "localizacao": "São Paulo, SP",
+      "horario": "14:00",
+      "descricao": "Concurso para diversos cargos administrativos na Prefeitura de São Paulo.",
+      "link": "https://www.prefeitura.sp.gov.br/concursos",
+      "materiais": "Edital completo, apostilas para administração pública"
+    },
+    {
+      "nome": "Concurso Tribunal de Justiça do Estado de São Paulo 2024",
+      "dataInscricao": "2024-02-01",
+      "dataProva": "2024-04-05",
+      "categoria": "Jurídica",
+      "nivelEnsino": "Superior",
+      "banca": "Vunesp",
+      "localizacao": "São Paulo, SP",
+      "horario": "09:00",
+      "descricao": "O concurso oferece vagas para diversos cargos no Tribunal de Justiça do Estado de São Paulo.",
+      "link": "https://www.tjsp.jus.br/concursos",
+      "materiais": "Edital, apostilas para direito, legislação específica"
+    },
+    {
+      "nome": "Concurso IBGE 2024 - Censo Demográfico",
+      "dataInscricao": "2024-03-01",
+      "dataProva": "2024-06-15",
+      "categoria": "Pesquisa e Estatística",
+      "nivelEnsino": "Médio",
+      "banca": "CESPE",
+      "localizacao": "Em todo o Brasil",
+      "horario": "A definir",
+      "descricao": "Concurso para atuação como recenseador do Censo Demográfico do IBGE 2024.",
+      "link": "https://www.ibge.gov.br/concursos",
+      "materiais": "Edital, apostilas de matemática básica, geografia"
+    },
+    {
+      "nome": "Concurso Universidade de Brasília 2024",
+      "dataInscricao": "2024-04-05",
+      "dataProva": "2024-08-20",
+      "categoria": "Educação",
+      "nivelEnsino": "Superior",
+      "banca": "Instituto Acesso",
+      "localizacao": "Brasília, DF",
+      "horario": "10:00",
+      "descricao": "Vagas para professores e técnico-administrativos na Universidade de Brasília.",
+      "link": "https://www.unb.br/concursos",
+      "materiais": "Edital, apostilas de didática e concurso público"
+    }
+```
+
+##### Estrutura de Dados - Simulados
+
+Lista de simulados disponíveis na plataforma
+
+```json
+  {
+      "id": 1,
+      "nome": "Simulado ENEM 2024",
+      "concurso": "ENEM",
+      "data": "2024-11-20"
+    },
+    {
+      "id": 2,
+      "nome": "Simulado Concurso INSS",
+      "concurso": "INSS",
+      "data": "2024-12-01"
+    },
+    {
+      "id": 3,
+      "nome": "Simulado Concurso Banco do Brasil",
+      "concurso": "Banco do Brasil",
+      "data": "2024-12-10"
+    },
+    {
+      "id": 4,
+      "nome": "Simulado Concurso Polícia Federal",
+      "concurso": "Polícia Federal",
+      "data": "2024-11-25"
+    },
+    {
+      "id": 5,
+      "nome": "Simulado Concurso Receita Federal",
+      "concurso": "Receita Federal",
+      "data": "2024-12-15"
+    }
+```
+
+##### Estrutura de Dados - Carga Horária
+
+Lista de carga horárias disponíveis no sistema
+
+```json
+  {
+      "nome": "Policia Militar",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 4,
+          "livro": "Gramática Completa para Concursos e Vestibulares"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 3,
+          "livro": "Raciocínio Lógico e Matemática para Concursos"
+        },
+        {
+          "nome": "Informática",
+          "prioridade": 5,
+          "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 1,
+          "livro": "Manual de Direito Administrativo"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 2,
+          "livro": "Direitos Fundamentais e Controle de Constitucionalidade"
+        }
+      ]
+    },
+    {
+      "nome": "Auditor Fiscal",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 5,
+          "livro": "Gramática Completa para Concursos e Vestibulares"
+        },
+        {
+          "nome": "Direito Tributário",
+          "prioridade": 1,
+          "livro": "Manual de Direito Tributário"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 4,
+          "livro": "Raciocínio Lógico e Matemática para Concursos"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 3,
+          "livro": "Manual de Direito Administrativo"
+        },
+        {
+          "nome": "Contabilidade",
+          "prioridade": 2,
+          "livro": "Contabilidade Geral Para Concurso Público"
+        }
+      ]
+    },
+    {
+      "nome": "Analista Judiciario",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 7,
+          "livro": "Gramática Completa para Concursos e Vestibulares"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 6,
+          "livro": "RACIOCÍNIO LÓGICO E MATEMÁTICA PARA CONCURSOS"
+        },
+        {
+          "nome": "Informática",
+          "prioridade": 5,
+          "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 3,
+          "livro": "Manual de Direito Administrativo"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 2,
+          "livro": "Direitos fundamentais e controle de constitucionalidade - Estudos de Direito Constitucional"
+        },
+        {
+          "nome": "Direito Penal",
+          "prioridade": 1,
+          "livro": "Direito Penal - Parte Geral"
+        },
+        {
+          "nome": "Noções de Direito das Pessoas com Deficiência",
+          "prioridade": 4,
+          "livro": "DIREITOS HUMANOS DAS PESSOAS COM DEFICIÊNCIA"
+        }
+      ]
+    },
+    {
+      "nome": "Engenharia Civil",
+      "materias": [
+        {
+          "nome": "Estruturas",
+          "prioridade": 1,
+          "livro": "Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado"
+        },
+        {
+          "nome": "Geotécnica",
+          "prioridade": 2,
+          "livro": "Fundamentos De Engenharia Geotécnica"
+        },
+        {
+          "nome": "Fiscalização, Contratos e Licitações",
+          "prioridade": 3,
+          "livro": "Manual de Obras e Serviços de Engenharia: Fundamentos da Licitação e Contratação"
+        },
+        {
+          "nome": "Planejamento e Orçamento",
+          "prioridade": 4,
+          "livro": "Planejamento e Controle de Obras"
+        },
+        {
+          "nome": "Análise Estrutural",
+          "prioridade": 5,
+          "livro": "Análise Estrutural Usando Métodos Clássicos e Métodos Matriciais"
+        }
+      ]
+    }
+```
+
+
 
 ## Módulos e APIs
 
