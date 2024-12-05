@@ -10,8 +10,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin: 0;
 }
 
 .container {
@@ -24,15 +22,8 @@ body {
   text-align: center;
 }
 
-header {
-  background-color: #00509e;
-  color: white;
-  padding: 20px;
-  border-radius: 8px 8px 0 0;
-}
 
 header h1 {
-  margin: 0;
   font-size: 1.8rem;
 }
 
