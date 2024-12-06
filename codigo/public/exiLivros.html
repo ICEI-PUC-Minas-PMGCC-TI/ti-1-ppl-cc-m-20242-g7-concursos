@@ -19,8 +19,13 @@
 
     <main>
         <section class="livros">
+            <h1>Lista de Livros</h1>
             <div class="livros-header">
-                <h1>Lista de Livros</h1>
+                
+                <div>
+                    <label for="search-bar">Pesquisar:</label>
+                    <input type="text" id="search-bar" placeholder="Digite para pesquisar...">
+                </div>
                 <div>
                     <label for="filter-materia">Filtrar por Matéria:</label>
                     <select id="filter-materia">
@@ -30,10 +35,9 @@
                         <option value="Informática">Informática</option>
                     </select>
                 </div>
+                
             </div>
-        <div id="lista-livros">
-            
-        </div>
+            <div id="lista-livros"></div>
         </section>
     </main>
     

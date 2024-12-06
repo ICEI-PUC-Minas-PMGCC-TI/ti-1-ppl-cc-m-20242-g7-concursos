@@ -2,25 +2,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .livros-header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    max-width: 1200px;
     margin-bottom: 20px;
 }
 
-.livros {
+.livros-header div {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: column;
+    align-items:flex-start;
 }
 
-.livros select {
-    margin-bottom: 20px;
-    padding: 5px;
+.livros-header div label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.livros-header div select,
+.livros-header div input {
+    padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -28,13 +36,19 @@
     transition: border-color 0.3s;
 }
 
-.livros select:focus {
+.livros-header div select:focus,
+.livros-header div input:focus {
     border-color: #007bff;
     outline: none;
 }
 
-.livros option {
-    padding: 10px;
+.livros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .livro {
@@ -62,7 +76,26 @@
 }
 
 .livro p {
-    margin: 0;
+    margin:14px 0;
     font-size: 14px;
     color: #666;
+    text-align: justify;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .livros-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .livros-header div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .livros-header div select,
+    .livros-header div input {
+        width: 100%;
+    }
 }
