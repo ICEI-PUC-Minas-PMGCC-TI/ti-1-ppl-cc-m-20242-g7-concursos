@@ -22,14 +22,15 @@
     
         <main>
             <!-- Formulário para cadastrar livro -->
-            <form id ="usuarioForm">
-                <h1>Biblioteca</h1>
-                <h2>Cadastrar Livros</h2>
+            <form id="usuarioForm"></form>
+                <h1>Cadastrar Livros</h1>
+                
                 <input type="hidden" id="livro-id">
                 <input type="text" id="titulo-livro" placeholder="Título do Livro" required>
                 <input type="text" id="descricao-livro" placeholder="Descrição do Livro" required>
                 <input type="text" id="editora-livro" placeholder="Editora do Livro" required>
                 <input type="text" id="materia-livro" placeholder="Matéria do Livro" required>
+                <input type="text" id="link-livro" placeholder="Link do Livro" required>
                 <button class="botoes" type="submit" onclick="cadastrarLivro(event)">Cadastrar</button>
             </form>
 

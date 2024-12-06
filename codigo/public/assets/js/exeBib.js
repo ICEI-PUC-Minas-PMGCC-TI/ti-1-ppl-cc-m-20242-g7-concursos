@@ -27,6 +27,7 @@ async function carregarLivros(materia) {
               <p><strong>Matéria:</strong> ${livro.materia}</p>
               <p><strong>Editora:</strong> ${livro.editora}</p>
               <p><strong>Descrição:</strong> ${livro.descricao}</p>
+              <p><strong>Link:</strong> ${livro.link}</p>
           `;
           listaLivros.appendChild(livroElement);
       });
