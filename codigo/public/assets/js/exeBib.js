@@ -51,3 +51,33 @@ document.getElementById("search-bar").addEventListener("input", function () {
 });
 
 window.onload = () => carregarLivros();
+async function carregarConcursos() {
+    try {
+        const response = await fetch('https://www.jconcurseiro.com.br/api/concursos');
+        const data = await response.json();
+        console.log(data);  // Exibe os dados dos concursos
+
+        const listaConcursos = document.getElementById('lista-concursos');
+        listaConcursos.innerHTML = '';
+
+        data.forEach(concurso => {
+            const concursoElement = document.createElement('div');
+            concursoElement.classList.add('concurso');
+            concursoElement.innerHTML = `
+                <h3>${concurso.nome}</h3>
+                <p><strong>Órgão:</strong> ${concurso.orgao}</p>
+                <p><strong>Vagas:</strong> ${concurso.vagas}</p>
+                <p><strong>Salário:</strong> ${concurso.salario}</p>
+                <p><strong>Link:</strong> <a href="${concurso.link}" target="_blank">Clique Aqui</a></p>
+            `;
+            listaConcursos.appendChild(concursoElement);
+        });
+    } catch (error) {
+        console.error('Erro ao buscar concursos:', error);
+    }
+}
+
+window.onload = () => {
+    carregarLivros();
+    carregarConcursos();
+};
