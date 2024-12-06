@@ -1,53 +1,56 @@
-async function carregarLivros(materia, searchTerm) {
+async function carregarConcursos(materia, searchTerm) {
     try {
-        let url = "http://localhost:3000/livros";
-        if (materia && materia != "all") {
-            url += `?materia=${materia}`;
-        }
+        // URL da API do JConcurseiro
+        const url = "https://www.jconcurseiro.com.br/api/concursos";
+        
+        // Fazendo requisição GET para a API
         const response = await fetch(url, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
             },
         });
-        const livros = await response.json();
 
-        const listaLivros = document.getElementById('lista-livros');
-
-        listaLivros.innerHTML = '';
-        while (listaLivros.firstChild) {
-            listaLivros.removeChild(listaLivros.firstChild);
+        const concursos = await response.json();
+        
+        const listaConcursos = document.getElementById('lista-concursos');
+        
+        // Limpa a lista antes de adicionar os novos concursos
+        listaConcursos.innerHTML = '';
+        while (listaConcursos.firstChild) {
+            listaConcursos.removeChild(listaConcursos.firstChild);
         }
 
-        livros.forEach(livro => {
-            if (!searchTerm || livro.titulo.toLowerCase().includes(searchTerm.toLowerCase())) {
-                const livroElement = document.createElement('div');
-                livroElement.classList.add('livro');
-                livroElement.innerHTML = `
-                    <h3>${livro.titulo}</h3>
-                    <p><strong>Matéria:</strong> ${livro.materia}</p>
-                    <p><strong>Editora:</strong> ${livro.editora}</p>
-                    <p><strong>Descrição:</strong> ${livro.descricao}</p>
-                    <p><strong>Link:</strong> <a href="${livro.link}" target="_blank">Clique Aqui</a></p>
+        concursos.forEach(concurso => {
+            if (!searchTerm || concurso.organization.toLowerCase().includes(searchTerm.toLowerCase())) {
+                const concursoElement = document.createElement('div');
+                concursoElement.classList.add('concurso');
+                concursoElement.innerHTML = `
+                    <h3>${concurso.organization}</h3>
+                    <p><strong>Vagas:</strong> ${concurso.workPlacesAvailable}</p>
+                    <p><strong>Link:</strong> <a href="${concurso.link}" target="_blank">Clique Aqui</a></p>
+                    <p><strong>Status:</strong> ${concurso.status}</p>
                 `;
-                listaLivros.appendChild(livroElement);
+                listaConcursos.appendChild(concursoElement);
             }
         });
     } catch (error) {
-        console.error('Erro ao carregar o JSON:', error);
+        console.error('Erro ao carregar os concursos:', error);
     }
 }
 
+// Filtros
 document.getElementById("filter-materia").addEventListener("change", function () {
     const value = this.value;
     const searchTerm = document.getElementById("search-bar").value;
-    carregarLivros(value, searchTerm);
+    carregarConcursos(value, searchTerm);
 });
 
 document.getElementById("search-bar").addEventListener("input", function () {
     const searchTerm = this.value;
     const materia = document.getElementById("filter-materia").value;
-    carregarLivros(materia, searchTerm);
+    carregarConcursos(materia, searchTerm);
 });
 
-window.onload = () => carregarLivros();
+// Carrega concursos ao inicializar a página
+window.onload = () => carregarConcursos();
