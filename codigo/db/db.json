@@ -133,6 +133,17 @@
       "data": "2024-12-15"
     }
   ],
+
+  "mensagens": [{
+            "id": "1",
+            "mensagem": "Bem-vindo ao sistema! Não se esqueça de verificar os novos simulados disponíveis."
+        },
+        {
+            "id": "2",
+            "mensagem": "A sua inscrição para o concurso IBGE 2024 foi confirmada com sucesso!"
+        }
+    ],
+  
   "cargos": [
     {
       "nome": "Policia Militar",
