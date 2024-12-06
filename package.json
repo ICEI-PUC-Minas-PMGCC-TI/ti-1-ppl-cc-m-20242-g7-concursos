@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "ti-1-ppl-cc-m-20242-g7-concursos": "file:"
   }
 }
