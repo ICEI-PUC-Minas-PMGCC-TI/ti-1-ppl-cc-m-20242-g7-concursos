@@ -1,4 +1,11 @@
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -6,48 +13,48 @@
     justify-content: center;
     flex: 1;
     height: 100vh;
+    padding: 20px;
 }
-.linha {
+
+.linha, .linhaespecial {
     display: flex;
     justify-content: center;
     gap: 20px;
     width: 100%;
     max-width: 800px;
     align-items: center;
+    margin-bottom: 20px;
 }
-.linhaespecial {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    max-width: 800px;
-    align-items: center;
-}
-.caixa {
+
+.caixa, .caixaespecial {
     background-color: #3498db;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
     text-align: left;
     margin-bottom: 20px;
     flex: 1;
     max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
 .caixaespecial {
     background-color: rgba(255, 153, 0, 1);
-    padding: 10px;
-    border-radius: 20px;
-    text-align: left;
-    margin-bottom: 20px;
-    flex: 1;
-    max-width: 250px;
 }
-.caixa img {
+
+.caixa:hover, .caixaespecial:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.caixa img, .caixaespecial img {
     width: 50px;
     height: auto;
     margin-right: 10px;
     vertical-align: middle;
 }
-.caixa a {
+
+.caixa a, .caixaespecial a {
     display: flex;
     text-decoration: none; 
     color: white; 
@@ -55,17 +62,23 @@
     width: 100%; 
     align-items: center; 
 }
-.caixaespecial img {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-    vertical-align: middle;
+
+footer, header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
 }
-.caixaespecial a {
-    display: flex;
-    text-decoration: none; 
-    color: white; 
-    height: 100%; 
-    width: 100%; 
-    align-items: center; 
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
