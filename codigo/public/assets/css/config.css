@@ -1,0 +1,45 @@
+.btn-voltar {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 34px; 
+    color: #C8C8C8; 
+    display: flex; 
+    align-items: center; 
+    outline: none; 
+    padding: 10px; 
+  }
+  
+  .btn-voltar:hover {
+    color: #A9A9A9; 
+  }
+  
+  .btn-voltar i {
+    margin-right: 8px; 
+  }
+  
+  #botoes {
+      width: 100%;
+      margin-top: 50px; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+    
+  }
+  .botao-icone {
+    color: #4D9DE0; 
+    transform: scale(2.0); 
+  }
+  .btn-light {
+      padding: 16px 30px; 
+      font-size: 1.2rem;  
+      max-width: 600px;
+      min-width: 400px;
+  }
+  h1{
+     font-weight: 700;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+  }
