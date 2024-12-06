@@ -1,34 +1,9 @@
-body, h1, h2, p, form, label, input, select, button {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
-  width: 100%;
-  text-align: center;
-}
-
-
-header h1 {
-  font-size: 1.8rem;
-}
-
 #filtros {
   padding: 20px 0;
+  background-color: #e0e7ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 #filtros h2 {
@@ -36,25 +11,26 @@ header h1 {
   margin-bottom: 20px;
 }
 
-.form-group {
+#filtros .form-group {
   margin-bottom: 15px;
   text-align: left;
 }
 
-.form-group label {
+#filtros .form-group label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-.form-group input, .form-group select {
+#filtros .form-group input,
+#filtros .form-group select {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-button {
+#filtros button {
   background-color: #00509e;
   color: white;
   padding: 10px 20px;
@@ -66,24 +42,6 @@ button {
   margin-top: 10px;
 }
 
-button:hover {
+#filtros button:hover {
   background-color: #003f7f;
-}
-
-#resultados {
-  margin-top: 20px;
-}
-
-#resultados h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.resultado-item {
-  background-color: #e0e7ff;
-  padding: 15px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: left;
 }
