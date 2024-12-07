@@ -2,6 +2,7 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
+
 body {
     zoom: 70%; /*Gabriel: Adicionei esse zoom para que o usuário consiga ver mais opções ao invês de ficar limitado à poucos concursos ocupando quase toda sua tela*/
     font-family: Arial, sans-serif;
@@ -42,27 +43,34 @@ h1 {
     background-color: #FF9900;
 }
 
-#caixinha {
+#simulado-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.simulado-caixinha {
     background-color: #4D9DE0;
     width: 320px;
-    margin: 10px auto;
+    margin: 10px;
     padding: 16px;
     border-radius: 10px;
     color: white;
     text-align: center;
 }
 
-#caixinha p {
+.simulado-caixinha p {
     margin: 5px 0;
 }
 
-#duracao, #dif {
+.simulado-duracao, .simulado-dificuldade {
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
 }
 
-#caixinha button {
+.simulado-caixinha button {
     background-color: #FF9900;
     border: none;
     color: white;
