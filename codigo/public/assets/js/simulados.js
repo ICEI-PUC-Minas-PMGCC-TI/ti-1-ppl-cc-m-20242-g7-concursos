@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('click', function() {
   fetch('http://localhost:3000/simulados')
     .then(response => response.json())
     .then(data => {
