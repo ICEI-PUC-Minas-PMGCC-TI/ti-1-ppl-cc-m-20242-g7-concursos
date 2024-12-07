@@ -1,6 +1,6 @@
 async function carregarLivros(materia, searchTerm) {
     try {
-        let url = "http://localhost:300/livros";
+        let url = "http://localhost:3000/livros";
         if (materia && materia != "all") {
             url += `?materia=${materia}`;
         }
