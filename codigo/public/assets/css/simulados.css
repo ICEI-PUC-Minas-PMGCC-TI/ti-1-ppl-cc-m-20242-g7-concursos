@@ -16,6 +16,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+a {
+    color: #FF9900;
+}
+
 .barra-pesquisa {
     display: flex;
     justify-content: center;
@@ -58,6 +62,13 @@ h1 {
     border-radius: 10px;
     color: white;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.simulado-caixinha:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .simulado-caixinha p {
@@ -78,4 +89,9 @@ h1 {
     padding: 8px 16px;
     cursor: pointer;
     margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.simulado-caixinha button:hover {
+    background-color: #e68a00;
 }
