@@ -10,7 +10,6 @@
   * [João Paulo de Deus Natividade Oliveira Saraiva](https://github.com/Jpdnos)
   * [Nayron Campos Soares](https://github.com/1567164)
   * [Lawer Böuch Soncin Rocha](https://github.com/la-wer)
-  * [Rafael Guimaraes Matos](https://github.com/RafaelgMatos)
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -283,7 +282,7 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 A organização da equipe foi divida em quatro grupos, cada um responsáveis pelas funções requisitadas para a entrega das atividades: Github, Figma, PowerPoint e Miro.
 O grupo foi dividido em:
 
-* **Github** - Lawer, Gabriel, Rafael;
+* **Github** - Lawer, Gabriel;
 * **Figma** - Lawer, Gabriel, João, Gustavo, Rafael, Nayron;
 * **PowerPoint** - Isabel e Nyron;
 * **Miro** - João e Nyron.
@@ -306,59 +305,78 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 
 ## Funcionalidades
 
-Esta seção apresenta as funcionalidades da solução.Info
+Esta seção apresenta as funcionalidades do nosso site.
 
-##### Funcionalidade 1 - Cadastro de Contatos ⚠️ EXEMPLO ⚠️
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+  #### Funcionalidade 1 - Cadastro de Livros
 
-* **Estrutura de dados:** [Contatos](#ti_ed_contatos)
-* **Instruções de acesso:**
-  * Abra o site e efetue o login
-  * Acesse o menu principal e escolha a opção Cadastros
-  * Em seguida, escolha a opção Contatos
-* **Tela da funcionalidade**:
+  Permite a inclusão, leitura, alteração e exclusão dos livros para o sistema
 
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+  * **Estrutura de dados:** [Livros](#ti_ed_livros)
+  * **Instruções de acesso:**
+    * Abra o site 
+    * Acesse o menu principal e escolha a opção Cadastro de Livros
+  * **Tela da funcionalidade**:
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+  ![Tela de Funcionalidade](images/funcionalidade_CadastroLivro.png)
 
-## Estruturas de Dados
-
-Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
-
-##### Estrutura de Dados - Livros
-
-Livros da aba de estudos
-
-```json
-  {
-      "id": "1",
-      "titulo": "Algebrista Volume 1 Teoria e Exercícios de Fixação",
-      "materia": "Matemática",
-      "editora": "Ciência Moderna",
-      "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em álgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio."
-    },
-    {
-      "id": "2",
-      "titulo": "Gramática completa para concursos e vestibulares",
-      "materia": "Portugues",
-      "editora": "Saraiva",
-      "descricao": "Gramática completa para concursos e vestibulares traz a teoria gramatical completa explicada de um modo simples e mais de 500 testes de múltipla escolha selecionados de concursos públicos e vestibulares promovidos por diversas instituições brasileiras, constantes em uma lista no final do volume. Esta obra foi pensada para tornar o estudo da Gramática uma atividade mais prazerosa, distanciando-a daquela idéia de informações maçantes difíceis de decifrar."
-    },
-    {
-      "id": "3",
-      "titulo": "Matemática e lógica para concursos",
-      "materia": "Matemática",
-      "editora": "Saraiva",
-      "descricao": "Esta edição já está de acordo com a nova ortografia.Você acha matemática complicada e não se lembra mais do que estudou? Acaba se atrapalhando quando o assunto é Raciocínio Lógico? Quer brigar por um cargo público (auditor fiscal, oficial de justiça, agente de polícia, técnico da Receita Federal, analista de finanças etc.)? Você sabe que vai precisar direcionar bem os seus estudos. A competição é acirrada e qualquer ponto pode fazer a diferença.Matemática e Lógica para Concursos, elaborada pelo professor José Luiz de Morais, especialista em preparação de candidatos a concursos públicos, reúne toda a teoria necessária e muito cobrada em concursos, para ajudar você a se preparar melhor nos estudos."
-    }
+  #### Funcionalidade 2 - Exebição de Livros
   
-```
+  Permite a pesquisa dos livros cadastrados.
+
+  * **Estrutura de dados:** [Livros](#estruturas_de_dados:__livros)
+  * **Instruções de acesso:**
+    * Abra o site. 
+    * Acesse o menu principal e escolha a opção Biblioteca
+  * **Tela da funcionalidade**:
+
+  ![Tela de Funcionalidade](images/funcionalidade_ExebicaoLivros.png)
+
+
+  > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+  >
+  > Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
+  >
+  > Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+
+
+
+  ## Estruturas de Dados
+
+  Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
+
+  ##### Estrutura de Dados: Livros
+
+  Livros da aba de estudos
+
+  ```json
+    
+  {
+    "id": "1",
+    "titulo": "Algebrista Volume 1 Teoria e Exercícios de Fixação",
+    "materia": "Matemática",
+    "editora": "Ciência Moderna",
+    "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra...",
+    "link": "https://www.amazon.com.br/Algebrista-Exerc%C3%ADcios-Fixa%C3%A7%C3%A3o..."
+  },
+  {
+    "id": "2",
+    "titulo": "Gramática completa para concursos e vestibulares",
+    "materia": "Português",
+    "editora": "Saraiva",
+    "descricao": "Gramática completa para concursos e vestibulares traz a teoria gramatical completa...",
+    "link": "https://www.amazon.com.br/Gram%C3%A1tica-Completa-Para-Concursos-Vestibulares..."
+  },
+  {
+    "id": "3",
+    "titulo": "Matemática e lógica para concursos",
+    "materia": "Matemática",
+    "editora": "Saraiva",
+    "descricao": "Esta edição já está de acordo com a nova ortografia...",
+    "link": "https://www.amazon.com.br/Matem%C3%A1tica-L%C3%B3gica-Para-Concursos..."
+  }
+   
+  ```
 
 ##### Estrutura de Dados - Usuários
 

@@ -11,7 +11,6 @@ A dificuldade em encontrar concursos públicos e federais torna-se marcante no c
 * João Paulo de Deus Natividade Oliveira Saraiva
 * Nayron Campos Soares
 * Lawer Böuch Soncin Rocha
-* Rafael Guimaraes Matos
 
 ## Professores responsáveis
 
