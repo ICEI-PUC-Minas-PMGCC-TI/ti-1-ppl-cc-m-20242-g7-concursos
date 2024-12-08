@@ -5,9 +5,6 @@ const dbMock = {
     botoes: [
       { id: 1, label: 'Sua Conta', class: 'btn btn-light', icon: 'oi oi-person' },
       { id: 2, label: 'Notificações', class: 'btn btn-light', icon: 'oi oi-bell' },
-      { id: 3, label: 'Privacidade e Segurança', class: 'btn btn-light', icon: 'oi oi-lock-locked' },
-      { id: 4, label: 'FAQ', class: 'btn btn-light', icon: 'oi oi-question-mark' },
-      { id: 5, label: 'Sobre', class: 'btn btn-light', icon: 'oi oi-info' }
     ]
   };
   function adicionarBotaoVoltar() {
