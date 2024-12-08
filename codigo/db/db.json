@@ -1,545 +1,703 @@
 {
-  "usuarios": [
-    {
-      "id": "1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
-    {
-      "id": "2",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    },
-    {
-      "login": "rommel",
-      "senha": "123",
-      "nome": "Rommel",
-      "email": "rommel@gmail.com",
-      "id": "3"
-    }
-  ],
-  "livros": [
-    {
-      "id": "1",
-      "titulo": "Algebrista Volume 1 Teoria e Exercícios de Fixação",
-      "materia": "Matemática",
-      "editora": "Ciência Moderna",
-      "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em álgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio.",
-      "link": "https://www.amazon.com.br/Algebrista-Exerc%C3%ADcios-Fixa%C3%A7%C3%A3o-Revis%C3%A3o-Quest%C3%B5es/dp/8539910241/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OSKLNHGU163V&dib=eyJ2IjoiMSJ9.Ez9MnCFY483luillEOvmCWfWIqbqEntOGi4nB-Pgr3OdLg0QgmDiLNrPmVjLSjF7bJEKHkQSduVLZyqzTIHgMzibzRBk3akhBfn13quWIuIf1--B0BcTDFpbIMwrgIOpzmaYyM18y6qtPvZKppVsFEBjXgoySdNjPITnGEWVzGRkHLkje11BCYsKMI6cgO8OtkSOmQtzCK_SX6ol4jseaBLK2iyOGRJVeGLqSwVEoN8.hb0ER_DO3FkAgYUpLwC_tUv_iyEDRWSzeZqSZYQLgbM&dib_tag=se&keywords=algebrista&qid=1733525207&s=books&sprefix=algebrista%2Cstripbooks%2C219&sr=1-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
-    },
-    {
-      "id": "2",
-      "titulo": "Gramática completa para concursos e vestibulares",
-      "materia": "Portugues",
-      "editora": "Saraiva",
-      "descricao": "Gramática completa para concursos e vestibulares traz a teoria gramatical completa explicada de um modo simples e mais de 500 testes de múltipla escolha selecionados de concursos públicos e vestibulares promovidos por diversas instituições brasileiras, constantes em uma lista no final do volume. Esta obra foi pensada para tornar o estudo da Gramática uma atividade mais prazerosa, distanciando-a daquela idéia de informações maçantes difíceis de decifrar.",
-      "link": "https://www.amazon.com.br/Gram%C3%A1tica-Completa-Para-Concursos-Vestibulares/dp/8502077430/ref=asc_df_8502077430/?tag=googleshopp00-20&linkCode=df0&hvadid=709883381905&hvpos=&hvnetw=g&hvrand=10887198004560946523&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196435&hvtargid=pla-812146749268&psc=1&mcid=9c091273d04a3bcc9d3adcc6969b26dd&gad_source=1"
-    },
-    {
-      "id": "3",
-      "titulo": "Matemática e lógica para concursos",
-      "materia": "Matemática",
-      "editora": "Saraiva",
-      "descricao": "Esta edição já está de acordo com a nova ortografia.Você acha matemática complicada e não se lembra mais do que estudou? Acaba se atrapalhando quando o assunto é Raciocínio Lógico? Quer brigar por um cargo público (auditor fiscal, oficial de justiça, agente de polícia, técnico da Receita Federal, analista de finanças etc.)? Você sabe que vai precisar direcionar bem os seus estudos. A competição é acirrada e qualquer ponto pode fazer a diferença.Matemática e Lógica para Concursos, elaborada pelo professor José Luiz de Morais, especialista em preparação de candidatos a concursos públicos, reúne toda a teoria necessária e muito cobrada em concursos, para ajudar você a se preparar melhor nos estudos.",
-      "link": "https://www.amazon.com.br/Matem%C3%A1tica-L%C3%B3gica-Para-Concursos-Morais/dp/8502131346/ref=sr_1_1?crid=867MSL1QE50F&dib=eyJ2IjoiMSJ9.CcgQl94DlVFePLiB_k-bRblMVvw1l2QINluBl-w3ZesynhjXTShWpxItajT7KKIad4TsD7EsgMhaxfVNm8ni6w7XrYK0A5edRIkzeiDyrZmPO7isYdogOBIx-iX9ZedLhhJQwnYDBHlg0vZPfZTD_mpSRC4ZDUiyu5ABL39t8WnbZzXe4OB9oLafGUsiVABgktGQTstTT57IbqIJYOpmD3VoErLoW2Y_PRQZDDIUuSHvoybSG5jBF5kIavgVNOOWVQh6x-PDJIwwUgcIcDcmoO1ALdV3PnXaBce6c2eRb34.R2NF94hJ8ORB0Ybdash7VQ3wO94LJYgPCscPGuSPS0c&dib_tag=se&keywords=matematica+e+logica+para+concursos&qid=1733525240&sprefix=matematica+e+logic%2Caps%2C183&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
-    },
-    {
-      "id": "4",
-      "titulo": "Matemática Financeira para Concursos",
-      "materia": "Matemática",
-      "editora": "Atlas",
-      "descricao": "Este livro aborda os principais tópicos de matemática financeira cobrados em concursos públicos, com teoria e exercícios resolvidos.",
-      "link": "https://www.amazon.com.br/Matem%C3%A1tica-Financeira-para-Concursos/dp/8522461234"
-    },
-    {
-      "id": "5",
-      "titulo": "Português Descomplicado",
-      "materia": "Portugues",
-      "editora": "Moderna",
-      "descricao": "Uma abordagem simplificada da gramática portuguesa, ideal para quem está se preparando para concursos e vestibulares.",
-      "link": "https://www.amazon.com.br/Portugu%C3%AAs-Descomplicado/dp/8516061234"
-    },
-    {
-      "id": "6",
-      "titulo": "Informática para Concursos",
-      "materia": "Informática",
-      "editora": "Érica",
-      "descricao": "Este livro cobre os principais tópicos de informática exigidos em concursos públicos, com teoria e questões comentadas.",
-      "link": "https://www.amazon.com.br/Inform%C3%A1tica-para-Concursos/dp/8536501234"
-    },
-    {
-      "id": "7",
-      "titulo": "Matemática para Concursos - Teoria e Prática",
-      "materia": "Matemática",
-      "editora": "Saraiva",
-      "descricao": "Uma abordagem completa da matemática para concursos, com teoria detalhada e exercícios práticos.",
-      "link": "https://www.amazon.com.br/Matem%C3%A1tica-para-Concursos/dp/8502131234"
-    },
-    {
-      "id": "8",
-      "titulo": "Gramática Essencial para Concursos",
-      "materia": "Portugues",
-      "editora": "Atlas",
-      "descricao": "Este livro apresenta uma revisão completa da gramática portuguesa, com foco em concursos públicos.",
-      "link": "https://www.amazon.com.br/Gram%C3%A1tica-Essencial-para-Concursos/dp/8522461235"
-    },
-    {
-      "id": "9",
-      "titulo": "Redação para Concursos",
-      "materia": "Portugues",
-      "editora": "Moderna",
-      "descricao": "Dicas e técnicas para a produção de redações em concursos públicos, com exemplos práticos.",
-      "link": "https://www.amazon.com.br/Reda%C3%A7%C3%A3o-para-Concursos/dp/8516061235"
-    },
-    {
-      "id": "10",
-      "titulo": "Raciocínio Lógico para Concursos",
-      "materia": "Matemática",
-      "editora": "Érica",
-      "descricao": "Este livro aborda os principais tópicos de raciocínio lógico cobrados em concursos públicos, com teoria e exercícios resolvidos.",
-      "link": "https://www.amazon.com.br/Racioc%C3%ADnio-L%C3%B3gico-para-Concursos/dp/8536501235"
-    },
-    {
-      "id": "11",
-      "titulo": "Informática Básica para Concursos",
-      "materia": "Informática",
-      "editora": "Saraiva",
-      "descricao": "Uma abordagem completa da informática básica para concursos, com teoria detalhada e exercícios práticos.",
-      "link": "https://www.amazon.com.br/Inform%C3%A1tica-B%C3%A1sica-para-Concursos/dp/8502131235"
-    },
-    {
-      "id": "12",
-      "titulo": "Matemática para Concursos - Questões Comentadas",
-      "materia": "Matemática",
-      "editora": "Atlas",
-      "descricao": "Este livro apresenta uma coleção de questões de matemática para concursos, todas comentadas e resolvidas.",
-      "link": "https://www.amazon.com.br/Matem%C3%A1tica-para-Concursos/dp/8522461236"
-    },
-    {
-      "id": "13",
-      "titulo": "Português para Concursos - Teoria e Exercícios",
-      "materia": "Portugues",
-      "editora": "Moderna",
-      "descricao": "Uma abordagem completa da língua portuguesa para concursos, com teoria detalhada e exercícios práticos.",
-      "link": "https://www.amazon.com.br/Portugu%C3%AAs-para-Concursos/dp/8516061236"
-    },
-    {
-      "id": "14",
-      "titulo": "Informática Avançada para Concursos",
-      "materia": "Informática",
-      "editora": "Érica",
-      "descricao": "Este livro cobre os principais tópicos de informática avançada exigidos em concursos públicos, com teoria e questões comentadas.",
-      "link": "https://www.amazon.com.br/Inform%C3%A1tica-Avan%C3%A7ada-para-Concursos/dp/8536501236"
-    },
-    {
-      "id": "15",
-      "titulo": "Matemática para Concursos - Resolução de Problemas",
-      "materia": "Matemática",
-      "editora": "Saraiva",
-      "descricao": "Uma abordagem prática da matemática para concursos, com foco na resolução de problemas.",
-      "link": "https://www.amazon.com.br/Matem%C3%A1tica-para-Concursos/dp/8502131236"
-    },
-    {
-      "id": "16",
-      "titulo": "Gramática para Concursos - Teoria e Prática",
-      "materia": "Portugues",
-      "editora": "Atlas",
-      "descricao": "Este livro apresenta uma revisão completa da gramática portuguesa, com foco em concursos públicos, incluindo teoria e prática.",
-      "link": "https://www.amazon.com.br/Gram%C3%A1tica-para-Concursos/dp/8522461237"
-    },
-    {
-      "id": "17",
-      "titulo": "Redação Oficial para Concursos",
-      "materia": "Portugues",
-      "editora": "Moderna",
-      "descricao": "Dicas e técnicas para a produção de redações oficiais em concursos públicos, com exemplos práticos.",
-      "link": "https://www.amazon.com.br/Reda%C3%A7%C3%A3o-Oficial-para-Concursos/dp/8516061237"
-    },
-    {
-      "id": "18",
-      "titulo": "Raciocínio Lógico e Matemática para Concursos",
-      "materia": "Matemática",
-      "editora": "Érica",
-      "descricao": "Este livro aborda os principais tópicos de raciocínio lógico e matemática cobrados em concursos públicos, com teoria e exercícios resolvidos.",
-      "link": "https://www.amazon.com.br/Racioc%C3%ADnio-L%C3%B3gico-e-Matem%C3%A1tica-para-Concursos/dp/8536501237"
-    },
-    {
-      "id": "19",
-      "titulo": "Informática para Concursos - Questões Comentadas",
-      "materia": "Informática",
-      "editora": "Saraiva",
-      "descricao": "Uma coleção de questões de informática para concursos, todas comentadas e resolvidas.",
-      "link": "https://www.amazon.com.br/Inform%C3%A1tica-para-Concursos/dp/8502131237"
-    },
-    {
-      "id": "20",
-      "titulo": "Matemática para Concursos - Teoria Completa",
-      "materia": "Matemática",
-      "editora": "Atlas",
-      "descricao": "Este livro apresenta uma teoria completa da matemática para concursos, com foco em concursos públicos.",
-      "link": "https://www.amazon.com.br/Matem%C3%A1tica-para-Concursos/dp/8522461238"
-    }
-  ],
-  "concursos": [
-    {
-      "nome": "Concurso Prefeitura de São Paulo 2024",
-      "dataInscricao": "2024-01-15",
-      "dataProva": "2024-03-10",
-      "categoria": "Administração Pública",
-      "nivelEnsino": "Superior",
-      "banca": "Fundação Vunesp",
-      "localizacao": "São Paulo, SP",
-      "horario": "14:00",
-      "descricao": "Concurso para diversos cargos administrativos na Prefeitura de São Paulo.",
-      "link": "https://www.prefeitura.sp.gov.br/concursos",
-      "materiais": "Edital completo, apostilas para administração pública",
-      "id": "728d"
-    },
-    {
-      "nome": "Concurso Tribunal de Justiça do Estado de São Paulo 2024",
-      "dataInscricao": "2024-02-01",
-      "dataProva": "2024-04-05",
-      "categoria": "Jurídica",
-      "nivelEnsino": "Superior",
-      "banca": "Vunesp",
-      "localizacao": "São Paulo, SP",
-      "horario": "09:00",
-      "descricao": "O concurso oferece vagas para diversos cargos no Tribunal de Justiça do Estado de São Paulo.",
-      "link": "https://www.tjsp.jus.br/concursos",
-      "materiais": "Edital, apostilas para direito, legislação específica",
-      "id": "91c9"
-    },
-    {
-      "nome": "Concurso IBGE 2024 - Censo Demográfico",
-      "dataInscricao": "2024-03-01",
-      "dataProva": "2024-06-15",
-      "categoria": "Pesquisa e Estatística",
-      "nivelEnsino": "Médio",
-      "banca": "CESPE",
-      "localizacao": "Em todo o Brasil",
-      "horario": "A definir",
-      "descricao": "Concurso para atuação como recenseador do Censo Demográfico do IBGE 2024.",
-      "link": "https://www.ibge.gov.br/concursos",
-      "materiais": "Edital, apostilas de matemática básica, geografia",
-      "id": "e14d"
-    },
-    {
-      "nome": "Concurso Universidade de Brasília 2024",
-      "dataInscricao": "2024-04-05",
-      "dataProva": "2024-08-20",
-      "categoria": "Educação",
-      "nivelEnsino": "Superior",
-      "banca": "Instituto Acesso",
-      "localizacao": "Brasília, DF",
-      "horario": "10:00",
-      "descricao": "Vagas para professores e técnico-administrativos na Universidade de Brasília.",
-      "link": "https://www.unb.br/concursos",
-      "materiais": "Edital, apostilas de didática e concurso público",
-      "id": "281f"
-    }
-  ],
-  "favoritos": [],
-  "simulados": [
-    {
-      "id": "1",
-      "nome": "Concurso Prefeitura de São Paulo 2024",
-      "dataAplicacao": "2023-11-01",
-      "concurso": "Concurso Prefeitura de São Paulo 2024",
-      "materias": ["Língua Portuguesa", "Matemática", "Informática"],
-      "numeroQuestoes": 50,
-      "descricao": "Simulado preparatório para o concurso da Prefeitura de São Paulo 2024.",
-      "link": "https://www.simulados.com.br/simulado-prefeitura-sp-2024"
-    },
-    {
-      "id": "2",
-      "nome": "Concurso Tribunal de Justiça do Estado de São Paulo 2024",
-      "dataAplicacao": "2023-11-15",
-      "concurso": "Concurso Tribunal de Justiça do Estado de São Paulo 2024",
-      "materias": ["Direito Constitucional", "Direito Administrativo", "Língua Portuguesa"],
-      "numeroQuestoes": 60,
-      "descricao": "Simulado preparatório para o concurso do Tribunal de Justiça do Estado de São Paulo 2024.",
-      "link": "https://www.simulados.com.br/simulado-tj-sp-2024"
-    },
-    {
-      "id": "3",
-      "nome": "Concurso IBGE 2024 - Censo Demográfico",
-      "dataAplicacao": "2023-12-01",
-      "concurso": "Concurso IBGE 2024 - Censo Demográfico",
-      "materias": ["Matemática", "Geografia"],
-      "numeroQuestoes": 40,
-      "descricao": "Simulado preparatório para o concurso do IBGE 2024 - Censo Demográfico.",
-      "link": "https://www.simulados.com.br/simulado-ibge-2024"
-    },
-    {
-      "id": "4",
-      "nome": "Concurso Universidade de Brasília 2024",
-      "dataAplicacao": "2023-12-15",
-      "concurso": "Concurso Universidade de Brasília 2024",
-      "materias": ["Didática", "Língua Portuguesa"],
-      "numeroQuestoes": 50,
-      "descricao": "Simulado preparatório para o concurso da Universidade de Brasília 2024.",
-      "link": "https://www.simulados.com.br/simulado-unb-2024"
-    },
-    {
-      "id": "5",
-      "nome": "Concurso Polícia Federal 2024",
-      "dataAplicacao": "2024-01-05",
-      "concurso": "Concurso Polícia Federal 2024",
-      "materias": ["Direito Penal", "Direito Constitucional", "Língua Portuguesa"],
-      "numeroQuestoes": 60,
-      "descricao": "Simulado preparatório para o concurso da Polícia Federal 2024.",
-      "link": "https://www.simulados.com.br/simulado-pf-2024"
-    },
-    {
-      "id": "6",
-      "nome": "Concurso Receita Federal 2024",
-      "dataAplicacao": "2024-01-20",
-      "concurso": "Concurso Receita Federal 2024",
-      "materias": ["Direito Tributário", "Contabilidade", "Língua Portuguesa"],
-      "numeroQuestoes": 70,
-      "descricao": "Simulado preparatório para o concurso da Receita Federal 2024.",
-      "link": "https://www.simulados.com.br/simulado-rf-2024"
-    },
-    {
-      "id": "7",
-      "nome": "Concurso Banco do Brasil 2024",
-      "dataAplicacao": "2024-02-01",
-      "concurso": "Concurso Banco do Brasil 2024",
-      "materias": ["Matemática Financeira", "Raciocínio Lógico", "Língua Portuguesa"],
-      "numeroQuestoes": 50,
-      "descricao": "Simulado preparatório para o concurso do Banco do Brasil 2024.",
-      "link": "https://www.simulados.com.br/simulado-bb-2024"
-    },
-    {
-      "id": "8",
-      "nome": "Concurso INSS 2024",
-      "dataAplicacao": "2024-02-15",
-      "concurso": "Concurso INSS 2024",
-      "materias": ["Direito Previdenciário", "Língua Portuguesa", "Informática"],
-      "numeroQuestoes": 60,
-      "descricao": "Simulado preparatório para o concurso do INSS 2024.",
-      "link": "https://www.simulados.com.br/simulado-inss-2024"
-    },
-    {
-      "id": "9",
-      "nome": "Concurso Polícia Rodoviária Federal 2024",
-      "dataAplicacao": "2024-03-01",
-      "concurso": "Concurso Polícia Rodoviária Federal 2024",
-      "materias": ["Legislação de Trânsito", "Direito Administrativo", "Língua Portuguesa"],
-      "numeroQuestoes": 55,
-      "descricao": "Simulado preparatório para o concurso da Polícia Rodoviária Federal 2024.",
-      "link": "https://www.simulados.com.br/simulado-prf-2024"
-    },
-    {
-      "id": "10",
-      "nome": "Concurso Caixa Econômica Federal 2024",
-      "dataAplicacao": "2024-03-15",
-      "concurso": "Concurso Caixa Econômica Federal 2024",
-      "materias": ["Matemática Financeira", "Raciocínio Lógico", "Língua Portuguesa"],
-      "numeroQuestoes": 60,
-      "descricao": "Simulado preparatório para o concurso da Caixa Econômica Federal 2024.",
-      "link": "https://www.simulados.com.br/simulado-caixa-2024"
-    },
-    {
-      "id": "11",
-      "nome": "Concurso Correios 2024",
-      "dataAplicacao": "2024-04-01",
-      "concurso": "Concurso Correios 2024",
-      "materias": ["Matemática", "Geografia", "Língua Portuguesa"],
-      "numeroQuestoes": 45,
-      "descricao": "Simulado preparatório para o concurso dos Correios 2024.",
-      "link": "https://www.simulados.com.br/simulado-correios-2024"
-    },
-    {
-      "id": "12",
-      "nome": "Concurso Ministério da Saúde 2024",
-      "dataAplicacao": "2024-04-15",
-      "concurso": "Concurso Ministério da Saúde 2024",
-      "materias": ["Saúde Pública", "Língua Portuguesa", "Informática"],
-      "numeroQuestoes": 55,
-      "descricao": "Simulado preparatório para o concurso do Ministério da Saúde 2024.",
-      "link": "https://www.simulados.com.br/simulado-ms-2024"
-    },
-    {
-      "id": "13",
-      "nome": "Concurso Banco Central 2024",
-      "dataAplicacao": "2024-05-01",
-      "concurso": "Concurso Banco Central 2024",
-      "materias": ["Economia", "Matemática Financeira", "Língua Portuguesa"],
-      "numeroQuestoes": 50,
-      "descricao": "Simulado preparatório para o concurso do Banco Central 2024.",
-      "link": "https://www.simulados.com.br/simulado-bacen-2024"
-    },
-    {
-      "id": "14",
-      "nome": "Concurso Polícia Civil 2024",
-      "dataAplicacao": "2024-05-15",
-      "concurso": "Concurso Polícia Civil 2024",
-      "materias": ["Direito Penal", "Direito Constitucional", "Língua Portuguesa"],
-      "numeroQuestoes": 60,
-      "descricao": "Simulado preparatório para o concurso da Polícia Civil 2024.",
-      "link": "https://www.simulados.com.br/simulado-pc-2024"
-    },
-    {
-      "id": "15",
-      "nome": "Concurso Tribunal de Contas da União 2024",
-      "dataAplicacao": "2024-06-01",
-      "concurso": "Concurso Tribunal de Contas da União 2024",
-      "materias": ["Direito Administrativo", "Contabilidade", "Língua Portuguesa"],
-      "numeroQuestoes": 50,
-      "descricao": "Simulado preparatório para o concurso do Tribunal de Contas da União 2024.",
-      "link": "https://www.simulados.com.br/simulado-tcu-2024"
-    }
-  ],
-  "mensagens": [
-    {
-      "id": "1",
-      "mensagem": "Bem-vindo ao sistema! Não se esqueça de verificar os novos simulados disponíveis."
-    },
-    {
-      "id": "2",
-      "mensagem": "A sua inscrição para o concurso IBGE 2024 foi confirmada com sucesso!"
-    }
-  ],
-  "cargos": [
-    {
-      "nome": "Policia Militar",
-      "materias": [
-        {
-          "nome": "Língua Portuguesa",
-          "prioridade": 4,
-          "livro": "Gramática Completa para Concursos e Vestibulares"
+    "usuarios": [{
+            "id": "1",
+            "login": "admin",
+            "senha": "123",
+            "nome": "Administrador do Sistema",
+            "email": "admin@abc.com"
         },
         {
-          "nome": "Raciocínio Lógico",
-          "prioridade": 3,
-          "livro": "Raciocínio Lógico e Matemática para Concursos"
+            "id": "2",
+            "login": "user",
+            "senha": "123",
+            "nome": "Usuario Comum",
+            "email": "user@abc.com"
         },
         {
-          "nome": "Informática",
-          "prioridade": 5,
-          "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
-        },
-        {
-          "nome": "Direito Administrativo",
-          "prioridade": 1,
-          "livro": "Manual de Direito Administrativo"
-        },
-        {
-          "nome": "Direito Constitucional",
-          "prioridade": 2,
-          "livro": "Direitos Fundamentais e Controle de Constitucionalidade"
+            "login": "rommel",
+            "senha": "123",
+            "nome": "Rommel",
+            "email": "rommel@gmail.com",
+            "id": "3"
         }
-      ],
-      "id": "616a"
-    },
-    {
-      "nome": "Auditor Fiscal",
-      "materias": [
-        {
-          "nome": "Língua Portuguesa",
-          "prioridade": 5,
-          "livro": "Gramática Completa para Concursos e Vestibulares"
+    ],
+    "livros": [{
+            "id": "1",
+            "titulo": "Algebrista Volume 1 Teoria e Exercícios de Fixação",
+            "materia": "Matemática",
+            "editora": "Ciência Moderna",
+            "descricao": "Algebrista é todo aquele que possui grande habilidade em álgebra. Para passar nos concursos do colégio naval e epcar o aluno precisa se tornar um algebrista. Para iniciar a preparação para concurso do ime ou ita, primeiramente, o aluno precisa ser um algebrista, dada a complexidade das questões e ao curto tempo para resolver cada questão. No brasil, vários pedagogos chamam de “algebrista” o professor que “tortura” o aluno com problemas algébricos complicados. Enquanto no exterior o termo é considerado um elogio. Independentemente da orientação educacional aplicada (álgebra mais fácil ou mais difícil), o fato é que, para aprovação nos concursos o candidato precisa estar bem preparado em álgebra. Nesse sentido, o algebrista, deste livro, se refere às habilidades algébricas que o aluno deve ter para enfrentar esse desafio.",
+            "link": "https://www.amazon.com.br/Algebrista-Exerc%C3%ADcios-Fixa%C3%A7%C3%A3o-Revis%C3%A3o-Quest%C3%B5es/dp/8539910241/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OSKLNHGU163V&dib=eyJ2IjoiMSJ9.Ez9MnCFY483luillEOvmCWfWIqbqEntOGi4nB-Pgr3OdLg0QgmDiLNrPmVjLSjF7bJEKHkQSduVLZyqzTIHgMzibzRBk3akhBfn13quWIuIf1--B0BcTDFpbIMwrgIOpzmaYyM18y6qtPvZKppVsFEBjXgoySdNjPITnGEWVzGRkHLkje11BCYsKMI6cgO8OtkSOmQtzCK_SX6ol4jseaBLK2iyOGRJVeGLqSwVEoN8.hb0ER_DO3FkAgYUpLwC_tUv_iyEDRWSzeZqSZYQLgbM&dib_tag=se&keywords=algebrista&qid=1733525207&s=books&sprefix=algebrista%2Cstripbooks%2C219&sr=1-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
         },
         {
-          "nome": "Direito Tributário",
-          "prioridade": 1,
-          "livro": "Manual de Direito Tributário"
+            "id": "2",
+            "titulo": "Gramática completa para concursos e vestibulares",
+            "materia": "Portugues",
+            "editora": "Saraiva",
+            "descricao": "Gramática completa para concursos e vestibulares traz a teoria gramatical completa explicada de um modo simples e mais de 500 testes de múltipla escolha selecionados de concursos públicos e vestibulares promovidos por diversas instituições brasileiras, constantes em uma lista no final do volume. Esta obra foi pensada para tornar o estudo da Gramática uma atividade mais prazerosa, distanciando-a daquela idéia de informações maçantes difíceis de decifrar.",
+            "link": "https://www.amazon.com.br/Gram%C3%A1tica-Completa-Para-Concursos-Vestibulares/dp/8502077430/ref=asc_df_8502077430/?tag=googleshopp00-20&linkCode=df0&hvadid=709883381905&hvpos=&hvnetw=g&hvrand=10887198004560946523&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196435&hvtargid=pla-812146749268&psc=1&mcid=9c091273d04a3bcc9d3adcc6969b26dd&gad_source=1"
         },
         {
-          "nome": "Raciocínio Lógico",
-          "prioridade": 4,
-          "livro": "Raciocínio Lógico e Matemática para Concursos"
+            "id": "3",
+            "titulo": "Matemática e lógica para concursos",
+            "materia": "Matemática",
+            "editora": "Saraiva",
+            "descricao": "Esta edição já está de acordo com a nova ortografia.Você acha matemática complicada e não se lembra mais do que estudou? Acaba se atrapalhando quando o assunto é Raciocínio Lógico? Quer brigar por um cargo público (auditor fiscal, oficial de justiça, agente de polícia, técnico da Receita Federal, analista de finanças etc.)? Você sabe que vai precisar direcionar bem os seus estudos. A competição é acirrada e qualquer ponto pode fazer a diferença.Matemática e Lógica para Concursos, elaborada pelo professor José Luiz de Morais, especialista em preparação de candidatos a concursos públicos, reúne toda a teoria necessária e muito cobrada em concursos, para ajudar você a se preparar melhor nos estudos.",
+            "link": "https://www.amazon.com.br/Matem%C3%A1tica-L%C3%B3gica-Para-Concursos-Morais/dp/8502131346/ref=sr_1_1?crid=867MSL1QE50F&dib=eyJ2IjoiMSJ9.CcgQl94DlVFePLiB_k-bRblMVvw1l2QINluBl-w3ZesynhjXTShWpxItajT7KKIad4TsD7EsgMhaxfVNm8ni6w7XrYK0A5edRIkzeiDyrZmPO7isYdogOBIx-iX9ZedLhhJQwnYDBHlg0vZPfZTD_mpSRC4ZDUiyu5ABL39t8WnbZzXe4OB9oLafGUsiVABgktGQTstTT57IbqIJYOpmD3VoErLoW2Y_PRQZDDIUuSHvoybSG5jBF5kIavgVNOOWVQh6x-PDJIwwUgcIcDcmoO1ALdV3PnXaBce6c2eRb34.R2NF94hJ8ORB0Ybdash7VQ3wO94LJYgPCscPGuSPS0c&dib_tag=se&keywords=matematica+e+logica+para+concursos&qid=1733525240&sprefix=matematica+e+logic%2Caps%2C183&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
         },
         {
-          "nome": "Direito Administrativo",
-          "prioridade": 3,
-          "livro": "Manual de Direito Administrativo"
+            "id": "4",
+            "titulo": "Matemática Financeira para Concursos",
+            "materia": "Matemática",
+            "editora": "Atlas",
+            "descricao": "Este livro aborda os principais tópicos de matemática financeira cobrados em concursos públicos, com teoria e exercícios resolvidos.",
+            "link": "https://www.amazon.com.br/Matem%C3%A1tica-Financeira-para-Concursos/dp/8522461234"
         },
         {
-          "nome": "Contabilidade",
-          "prioridade": 2,
-          "livro": "Contabilidade Geral Para Concurso Público"
+            "id": "5",
+            "titulo": "Português Descomplicado",
+            "materia": "Portugues",
+            "editora": "Moderna",
+            "descricao": "Uma abordagem simplificada da gramática portuguesa, ideal para quem está se preparando para concursos e vestibulares.",
+            "link": "https://www.amazon.com.br/Portugu%C3%AAs-Descomplicado/dp/8516061234"
+        },
+        {
+            "id": "6",
+            "titulo": "Informática para Concursos",
+            "materia": "Informática",
+            "editora": "Érica",
+            "descricao": "Este livro cobre os principais tópicos de informática exigidos em concursos públicos, com teoria e questões comentadas.",
+            "link": "https://www.amazon.com.br/Inform%C3%A1tica-para-Concursos/dp/8536501234"
+        },
+        {
+            "id": "7",
+            "titulo": "Matemática para Concursos - Teoria e Prática",
+            "materia": "Matemática",
+            "editora": "Saraiva",
+            "descricao": "Uma abordagem completa da matemática para concursos, com teoria detalhada e exercícios práticos.",
+            "link": "https://www.amazon.com.br/Matem%C3%A1tica-para-Concursos/dp/8502131234"
+        },
+        {
+            "id": "8",
+            "titulo": "Gramática Essencial para Concursos",
+            "materia": "Portugues",
+            "editora": "Atlas",
+            "descricao": "Este livro apresenta uma revisão completa da gramática portuguesa, com foco em concursos públicos.",
+            "link": "https://www.amazon.com.br/Gram%C3%A1tica-Essencial-para-Concursos/dp/8522461235"
+        },
+        {
+            "id": "9",
+            "titulo": "Redação para Concursos",
+            "materia": "Portugues",
+            "editora": "Moderna",
+            "descricao": "Dicas e técnicas para a produção de redações em concursos públicos, com exemplos práticos.",
+            "link": "https://www.amazon.com.br/Reda%C3%A7%C3%A3o-para-Concursos/dp/8516061235"
+        },
+        {
+            "id": "10",
+            "titulo": "Raciocínio Lógico para Concursos",
+            "materia": "Matemática",
+            "editora": "Érica",
+            "descricao": "Este livro aborda os principais tópicos de raciocínio lógico cobrados em concursos públicos, com teoria e exercícios resolvidos.",
+            "link": "https://www.amazon.com.br/Racioc%C3%ADnio-L%C3%B3gico-para-Concursos/dp/8536501235"
+        },
+        {
+            "id": "11",
+            "titulo": "Informática Básica para Concursos",
+            "materia": "Informática",
+            "editora": "Saraiva",
+            "descricao": "Uma abordagem completa da informática básica para concursos, com teoria detalhada e exercícios práticos.",
+            "link": "https://www.amazon.com.br/Inform%C3%A1tica-B%C3%A1sica-para-Concursos/dp/8502131235"
+        },
+        {
+            "id": "12",
+            "titulo": "Matemática para Concursos - Questões Comentadas",
+            "materia": "Matemática",
+            "editora": "Atlas",
+            "descricao": "Este livro apresenta uma coleção de questões de matemática para concursos, todas comentadas e resolvidas.",
+            "link": "https://www.amazon.com.br/Matem%C3%A1tica-para-Concursos/dp/8522461236"
+        },
+        {
+            "id": "13",
+            "titulo": "Português para Concursos - Teoria e Exercícios",
+            "materia": "Portugues",
+            "editora": "Moderna",
+            "descricao": "Uma abordagem completa da língua portuguesa para concursos, com teoria detalhada e exercícios práticos.",
+            "link": "https://www.amazon.com.br/Portugu%C3%AAs-para-Concursos/dp/8516061236"
+        },
+        {
+            "id": "14",
+            "titulo": "Informática Avançada para Concursos",
+            "materia": "Informática",
+            "editora": "Érica",
+            "descricao": "Este livro cobre os principais tópicos de informática avançada exigidos em concursos públicos, com teoria e questões comentadas.",
+            "link": "https://www.amazon.com.br/Inform%C3%A1tica-Avan%C3%A7ada-para-Concursos/dp/8536501236"
+        },
+        {
+            "id": "15",
+            "titulo": "Matemática para Concursos - Resolução de Problemas",
+            "materia": "Matemática",
+            "editora": "Saraiva",
+            "descricao": "Uma abordagem prática da matemática para concursos, com foco na resolução de problemas.",
+            "link": "https://www.amazon.com.br/Matem%C3%A1tica-para-Concursos/dp/8502131236"
+        },
+        {
+            "id": "16",
+            "titulo": "Gramática para Concursos - Teoria e Prática",
+            "materia": "Portugues",
+            "editora": "Atlas",
+            "descricao": "Este livro apresenta uma revisão completa da gramática portuguesa, com foco em concursos públicos, incluindo teoria e prática.",
+            "link": "https://www.amazon.com.br/Gram%C3%A1tica-para-Concursos/dp/8522461237"
+        },
+        {
+            "id": "17",
+            "titulo": "Redação Oficial para Concursos",
+            "materia": "Portugues",
+            "editora": "Moderna",
+            "descricao": "Dicas e técnicas para a produção de redações oficiais em concursos públicos, com exemplos práticos.",
+            "link": "https://www.amazon.com.br/Reda%C3%A7%C3%A3o-Oficial-para-Concursos/dp/8516061237"
+        },
+        {
+            "id": "18",
+            "titulo": "Raciocínio Lógico e Matemática para Concursos",
+            "materia": "Matemática",
+            "editora": "Érica",
+            "descricao": "Este livro aborda os principais tópicos de raciocínio lógico e matemática cobrados em concursos públicos, com teoria e exercícios resolvidos.",
+            "link": "https://www.amazon.com.br/Racioc%C3%ADnio-L%C3%B3gico-e-Matem%C3%A1tica-para-Concursos/dp/8536501237"
+        },
+        {
+            "id": "19",
+            "titulo": "Informática para Concursos - Questões Comentadas",
+            "materia": "Informática",
+            "editora": "Saraiva",
+            "descricao": "Uma coleção de questões de informática para concursos, todas comentadas e resolvidas.",
+            "link": "https://www.amazon.com.br/Inform%C3%A1tica-para-Concursos/dp/8502131237"
+        },
+        {
+            "id": "20",
+            "titulo": "Matemática para Concursos - Teoria Completa",
+            "materia": "Matemática",
+            "editora": "Atlas",
+            "descricao": "Este livro apresenta uma teoria completa da matemática para concursos, com foco em concursos públicos.",
+            "link": "https://www.amazon.com.br/Matem%C3%A1tica-para-Concursos/dp/8522461238"
         }
-      ],
-      "id": "a3bd"
-    },
-    {
-      "nome": "Analista Judiciario",
-      "materias": [
-        {
-          "nome": "Língua Portuguesa",
-          "prioridade": 7,
-          "livro": "Gramática Completa para Concursos e Vestibulares"
+    ],
+    "concursos": [{
+            "nome": "Concurso Prefeitura de São Paulo 2024",
+            "dataInscricao": "2024-01-15",
+            "dataProva": "2024-03-10",
+            "categoria": "Administração Pública",
+            "nivelEnsino": "Nível Superior",
+            "banca": "Fundação Vunesp",
+            "localizacao": "São Paulo, SP",
+            "horario": "14:00",
+            "descricao": "Concurso para diversos cargos administrativos na Prefeitura de São Paulo.",
+            "link": "https://www.prefeitura.sp.gov.br/concursos",
+            "materiais": "Edital completo, apostilas para administração pública",
+            "id": "728d"
         },
         {
-          "nome": "Raciocínio Lógico",
-          "prioridade": 6,
-          "livro": "RACIOCÍNIO LÓGICO E MATEMÁTICA PARA CONCURSOS"
+            "nome": "Concurso Tribunal de Justiça do Estado de São Paulo 2024",
+            "dataInscricao": "2024-02-01",
+            "dataProva": "2024-04-05",
+            "categoria": "Jurídica",
+            "nivelEnsino": "Nível Superior",
+            "banca": "Vunesp",
+            "localizacao": "São Paulo, SP",
+            "horario": "09:00",
+            "descricao": "O concurso oferece vagas para diversos cargos no Tribunal de Justiça do Estado de São Paulo.",
+            "link": "https://www.tjsp.jus.br/concursos",
+            "materiais": "Edital, apostilas para direito, legislação específica",
+            "id": "91c9"
         },
         {
-          "nome": "Informática",
-          "prioridade": 5,
-          "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
+            "nome": "Concurso IBGE 2024 - Censo Demográfico",
+            "dataInscricao": "2024-03-01",
+            "dataProva": "2024-06-15",
+            "categoria": "Pesquisa e Estatística",
+            "nivelEnsino": "Nível Médio",
+            "banca": "CESPE",
+            "localizacao": "Em todo o Brasil",
+            "horario": "A definir",
+            "descricao": "Concurso para atuação como recenseador do Censo Demográfico do IBGE 2024.",
+            "link": "https://www.ibge.gov.br/concursos",
+            "materiais": "Edital, apostilas de matemática básica, geografia",
+            "id": "e14d"
         },
         {
-          "nome": "Direito Administrativo",
-          "prioridade": 3,
-          "livro": "Manual de Direito Administrativo"
+            "nome": "Concurso Polícia Federal 2024",
+            "dataInscricao": "2024-07-05",
+            "dataProva": "2024-12-15",
+            "categoria": "Polícia Federal",
+            "nivelEnsino": "Nível Médio",
+            "banca": "CESPE",
+            "localizacao": "Em todo o Brasil",
+            "horario": "A definir",
+            "descricao": "Concurso para atuação como PF em 2025.",
+            "link": "https://www.PoliciaFederal.gov.br/concursos",
+            "materiais": "Edital, apostilas de justiça e treinamentos.",
+            "id": "e14e"
         },
         {
-          "nome": "Direito Constitucional",
-          "prioridade": 2,
-          "livro": "Direitos fundamentais e controle de constitucionalidade - Estudos de Direito Constitucional"
+            "nome": "Concurso Universidade de Brasília 2024",
+            "dataInscricao": "2024-04-05",
+            "dataProva": "2024-08-20",
+            "categoria": "Educação",
+            "nivelEnsino": "Nível Superior",
+            "banca": "Instituto Acesso",
+            "localizacao": "Brasília, DF",
+            "horario": "10:00",
+            "descricao": "Vagas para professores e técnico-administrativos na Universidade de Brasília.",
+            "link": "https://www.unb.br/concursos",
+            "materiais": "Edital, apostilas de didática e concurso público",
+            "id": "281f"
         },
         {
-          "nome": "Direito Penal",
-          "prioridade": 1,
-          "livro": "Direito Penal - Parte Geral"
+            "nome": "Concurso Ministério Público Federal 2024",
+            "dataInscricao": "2024-03-01",
+            "dataProva": "2024-05-10",
+            "categoria": "Jurídica",
+            "nivelEnsino": "Nível Superior",
+            "banca": "Cespe/Cebraspe",
+            "localizacao": "Brasília, DF",
+            "horario": "14:00",
+            "descricao": "Concurso para ingresso na carreira do Ministério Público Federal.",
+            "link": "https://www.mpf.mp.br/concursos",
+            "materiais": "Edital, legislação penal e processual, direito constitucional",
+            "id": "2a9d"
         },
         {
-          "nome": "Noções de Direito das Pessoas com Deficiência",
-          "prioridade": 4,
-          "livro": "DIREITOS HUMANOS DAS PESSOAS COM DEFICIÊNCIA"
+            "nome": "Concurso Receita Federal 2024",
+            "dataInscricao": "2024-02-15",
+            "dataProva": "2024-05-20",
+            "categoria": "Fiscal",
+            "nivelEnsino": "Nível Superior",
+            "banca": "Esaf",
+            "localizacao": "Diversas cidades do Brasil",
+            "horario": "08:00",
+            "descricao": "Oportunidades para Auditor Fiscal e Analista Tributário.",
+            "link": "https://www.gov.br/receitafederal/pt-br/concursos",
+            "materiais": "Edital, simulados fiscais, legislação tributária",
+            "id": "4f3b"
+        },
+        {
+            "nome": "Concurso Banco do Brasil 2024",
+            "dataInscricao": "2024-03-05",
+            "dataProva": "2024-06-15",
+            "categoria": "Bancária",
+            "nivelEnsino": "Nível Médio",
+            "banca": "Fundação Cesgranrio",
+            "localizacao": "Diversas cidades do Brasil",
+            "horario": "10:00",
+            "descricao": "Vagas para Escriturário, com oportunidades em diversas agências do Banco do Brasil.",
+            "link": "https://www.bb.com.br/concursos",
+            "materiais": "Edital, apostilas de matemática e conhecimentos bancários",
+            "id": "7e84"
+        },
+        {
+            "nome": "Concurso ANVISA 2024",
+            "dataInscricao": "2024-04-01",
+            "dataProva": "2024-06-10",
+            "categoria": "Reguladora",
+            "nivelEnsino": "Nível Superior",
+            "banca": "Idecan",
+            "localizacao": "Brasília, DF",
+            "horario": "14:00",
+            "descricao": "Vagas para Especialista em Regulação e Técnico Administrativo na ANVISA.",
+            "link": "https://www.gov.br/anvisa/pt-br/concursos",
+            "materiais": "Edital, materiais sobre regulação sanitária e administração pública",
+            "id": "9f12"
+        },
+        {
+            "nome": "Concurso Tribunal Regional Eleitoral de Minas Gerais 2024",
+            "dataInscricao": "2024-02-10",
+            "dataProva": "2024-04-20",
+            "categoria": "Jurídica",
+            "nivelEnsino": "Nível Médio e Superior",
+            "banca": "FCC",
+            "localizacao": "Belo Horizonte, MG",
+            "horario": "09:00",
+            "descricao": "Concurso para Técnico e Analista Judiciário no TRE-MG.",
+            "link": "https://www.tre-mg.jus.br/concursos",
+            "materiais": "Edital, legislação eleitoral e constitucional",
+            "id": "6d83"
+        },
+        {
+            "nome": "Concurso Petrobras 2024",
+            "dataInscricao": "2024-03-15",
+            "dataProva": "2024-05-25",
+            "categoria": "Energética",
+            "nivelEnsino": "Nível Médio e Superior",
+            "banca": "Cesgranrio",
+            "localizacao": "Diversas cidades do Brasil",
+            "horario": "08:30",
+            "descricao": "Vagas para engenheiros, técnicos e administradores na Petrobras.",
+            "link": "https://www.petrobras.com.br/pt/concursos",
+            "materiais": "Edital, apostilas técnicas e conhecimentos gerais sobre petróleo e gás",
+            "id": "3b59"
+        },
+        {
+            "nome": "Concurso IBAMA 2024",
+            "dataInscricao": "2024-01-25",
+            "dataProva": "2024-04-15",
+            "categoria": "Ambiental",
+            "nivelEnsino": "Nível Médio e Superior",
+            "banca": "Cebraspe",
+            "localizacao": "Brasília, DF",
+            "horario": "13:30",
+            "descricao": "Vagas para Analista Ambiental e Técnico Administrativo no IBAMA.",
+            "link": "https://www.ibama.gov.br/concursos",
+            "materiais": "Edital, materiais sobre legislação ambiental e conhecimentos administrativos",
+            "id": "2e47"
+        },
+        {
+            "nome": "Concurso Polícia Rodoviária Federal 2024",
+            "dataInscricao": "2024-02-05",
+            "dataProva": "2024-04-30",
+            "categoria": "Segurança Pública",
+            "nivelEnsino": "Nível Superior",
+            "banca": "Cespe/Cebraspe",
+            "localizacao": "Diversas cidades do Brasil",
+            "horario": "14:00",
+            "descricao": "Concurso para cargos de Agente e Inspetor na Polícia Rodoviária Federal.",
+            "link": "https://www.prf.gov.br/concursos",
+            "materiais": "Edital, legislação de trânsito e direito administrativo",
+            "id": "10a2"
+        },
+        {
+            "nome": "Concurso Caixa Econômica Federal 2024",
+            "dataInscricao": "2024-03-01",
+            "dataProva": "2024-05-15",
+            "categoria": "Bancária",
+            "nivelEnsino": "Nível Médio",
+            "banca": "Cesgranrio",
+            "localizacao": "Diversas cidades do Brasil",
+            "horario": "09:00",
+            "descricao": "Vagas para Técnico Bancário em diversas agências da Caixa Econômica Federal.",
+            "link": "https://www.caixa.gov.br/concursos",
+            "materiais": "Edital, apostilas de matemática financeira e conhecimentos bancários",
+            "id": "20b3"
+        },
+        {
+            "nome": "Concurso INSS 2024",
+            "dataInscricao": "2024-01-15",
+            "dataProva": "2024-03-25",
+            "categoria": "Seguridade Social",
+            "nivelEnsino": "Nível Médio",
+            "banca": "Fundação Carlos Chagas (FCC)",
+            "localizacao": "Diversas cidades do Brasil",
+            "horario": "08:00",
+            "descricao": "Oportunidades para Técnico do Seguro Social no INSS.",
+            "link": "https://www.gov.br/inss/pt-br/assuntos/concursos",
+            "materiais": "Edital, legislação previdenciária e simulados de conhecimentos gerais",
+            "id": "30c4"
+        },
+        {
+            "nome": "Concurso Ministério da Saúde 2024",
+            "dataInscricao": "2024-02-20",
+            "dataProva": "2024-05-05",
+            "categoria": "Saúde Pública",
+            "nivelEnsino": "Nível Médio e Superior",
+            "banca": "Fundação Getúlio Vargas (FGV)",
+            "localizacao": "Brasília, DF",
+            "horario": "13:00",
+            "descricao": "Vagas para Analista de Políticas de Saúde e Técnico Administrativo no Ministério da Saúde.",
+            "link": "https://www.gov.br/saude/pt-br/assuntos/concursos",
+            "materiais": "Edital, conhecimentos sobre saúde pública e administração",
+            "id": "40d5"
         }
-      ],
-      "id": "bf0c"
-    },
-    {
-      "nome": "Engenharia Civil",
-      "materias": [
-        {
-          "nome": "Estruturas",
-          "prioridade": 1,
-          "livro": "Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado"
+    ],
+    "favoritos": [],
+    "simulados": [{
+            "id": "1",
+            "nome": "Concurso Prefeitura de São Paulo 2024",
+            "dataAplicacao": "2023-11-01",
+            "concurso": "Concurso Prefeitura de São Paulo 2024",
+            "materias": ["Língua Portuguesa", "Matemática", "Informática"],
+            "numeroQuestoes": 50,
+            "descricao": "Simulado preparatório para o concurso da Prefeitura de São Paulo 2024.",
+            "link": "https://www.simulados.com.br/simulado-prefeitura-sp-2024"
         },
         {
-          "nome": "Geotécnica",
-          "prioridade": 2,
-          "livro": "Fundamentos De Engenharia Geotécnica"
+            "id": "2",
+            "nome": "Concurso Tribunal de Justiça do Estado de São Paulo 2024",
+            "dataAplicacao": "2023-11-15",
+            "concurso": "Concurso Tribunal de Justiça do Estado de São Paulo 2024",
+            "materias": ["Direito Constitucional", "Direito Administrativo", "Língua Portuguesa"],
+            "numeroQuestoes": 60,
+            "descricao": "Simulado preparatório para o concurso do Tribunal de Justiça do Estado de São Paulo 2024.",
+            "link": "https://www.simulados.com.br/simulado-tj-sp-2024"
         },
         {
-          "nome": "Fiscalização, Contratos e Licitações",
-          "prioridade": 3,
-          "livro": "Manual de Obras e Serviços de Engenharia: Fundamentos da Licitação e Contratação"
+            "id": "3",
+            "nome": "Concurso IBGE 2024 - Censo Demográfico",
+            "dataAplicacao": "2023-12-01",
+            "concurso": "Concurso IBGE 2024 - Censo Demográfico",
+            "materias": ["Matemática", "Geografia"],
+            "numeroQuestoes": 40,
+            "descricao": "Simulado preparatório para o concurso do IBGE 2024 - Censo Demográfico.",
+            "link": "https://www.simulados.com.br/simulado-ibge-2024"
         },
         {
-          "nome": "Planejamento e Orçamento",
-          "prioridade": 4,
-          "livro": "Planejamento e Controle de Obras"
+            "id": "4",
+            "nome": "Concurso Universidade de Brasília 2024",
+            "dataAplicacao": "2023-12-15",
+            "concurso": "Concurso Universidade de Brasília 2024",
+            "materias": ["Didática", "Língua Portuguesa"],
+            "numeroQuestoes": 50,
+            "descricao": "Simulado preparatório para o concurso da Universidade de Brasília 2024.",
+            "link": "https://www.simulados.com.br/simulado-unb-2024"
         },
         {
-          "nome": "Análise Estrutural",
-          "prioridade": 5,
-          "livro": "Análise Estrutural Usando Métodos Clássicos e Métodos Matriciais"
+            "id": "5",
+            "nome": "Concurso Polícia Federal 2024",
+            "dataAplicacao": "2024-01-05",
+            "concurso": "Concurso Polícia Federal 2024",
+            "materias": ["Direito Penal", "Direito Constitucional", "Língua Portuguesa"],
+            "numeroQuestoes": 60,
+            "descricao": "Simulado preparatório para o concurso da Polícia Federal 2024.",
+            "link": "https://www.simulados.com.br/simulado-pf-2024"
+        },
+        {
+            "id": "6",
+            "nome": "Concurso Receita Federal 2024",
+            "dataAplicacao": "2024-01-20",
+            "concurso": "Concurso Receita Federal 2024",
+            "materias": ["Direito Tributário", "Contabilidade", "Língua Portuguesa"],
+            "numeroQuestoes": 70,
+            "descricao": "Simulado preparatório para o concurso da Receita Federal 2024.",
+            "link": "https://www.simulados.com.br/simulado-rf-2024"
+        },
+        {
+            "id": "7",
+            "nome": "Concurso Banco do Brasil 2024",
+            "dataAplicacao": "2024-02-01",
+            "concurso": "Concurso Banco do Brasil 2024",
+            "materias": ["Matemática Financeira", "Raciocínio Lógico", "Língua Portuguesa"],
+            "numeroQuestoes": 50,
+            "descricao": "Simulado preparatório para o concurso do Banco do Brasil 2024.",
+            "link": "https://www.simulados.com.br/simulado-bb-2024"
+        },
+        {
+            "id": "8",
+            "nome": "Concurso INSS 2024",
+            "dataAplicacao": "2024-02-15",
+            "concurso": "Concurso INSS 2024",
+            "materias": ["Direito Previdenciário", "Língua Portuguesa", "Informática"],
+            "numeroQuestoes": 60,
+            "descricao": "Simulado preparatório para o concurso do INSS 2024.",
+            "link": "https://www.simulados.com.br/simulado-inss-2024"
+        },
+        {
+            "id": "9",
+            "nome": "Concurso Polícia Rodoviária Federal 2024",
+            "dataAplicacao": "2024-03-01",
+            "concurso": "Concurso Polícia Rodoviária Federal 2024",
+            "materias": ["Legislação de Trânsito", "Direito Administrativo", "Língua Portuguesa"],
+            "numeroQuestoes": 55,
+            "descricao": "Simulado preparatório para o concurso da Polícia Rodoviária Federal 2024.",
+            "link": "https://www.simulados.com.br/simulado-prf-2024"
+        },
+        {
+            "id": "10",
+            "nome": "Concurso Caixa Econômica Federal 2024",
+            "dataAplicacao": "2024-03-15",
+            "concurso": "Concurso Caixa Econômica Federal 2024",
+            "materias": ["Matemática Financeira", "Raciocínio Lógico", "Língua Portuguesa"],
+            "numeroQuestoes": 60,
+            "descricao": "Simulado preparatório para o concurso da Caixa Econômica Federal 2024.",
+            "link": "https://www.simulados.com.br/simulado-caixa-2024"
+        },
+        {
+            "id": "11",
+            "nome": "Concurso Correios 2024",
+            "dataAplicacao": "2024-04-01",
+            "concurso": "Concurso Correios 2024",
+            "materias": ["Matemática", "Geografia", "Língua Portuguesa"],
+            "numeroQuestoes": 45,
+            "descricao": "Simulado preparatório para o concurso dos Correios 2024.",
+            "link": "https://www.simulados.com.br/simulado-correios-2024"
+        },
+        {
+            "id": "12",
+            "nome": "Concurso Ministério da Saúde 2024",
+            "dataAplicacao": "2024-04-15",
+            "concurso": "Concurso Ministério da Saúde 2024",
+            "materias": ["Saúde Pública", "Língua Portuguesa", "Informática"],
+            "numeroQuestoes": 55,
+            "descricao": "Simulado preparatório para o concurso do Ministério da Saúde 2024.",
+            "link": "https://www.simulados.com.br/simulado-ms-2024"
+        },
+        {
+            "id": "13",
+            "nome": "Concurso Banco Central 2024",
+            "dataAplicacao": "2024-05-01",
+            "concurso": "Concurso Banco Central 2024",
+            "materias": ["Economia", "Matemática Financeira", "Língua Portuguesa"],
+            "numeroQuestoes": 50,
+            "descricao": "Simulado preparatório para o concurso do Banco Central 2024.",
+            "link": "https://www.simulados.com.br/simulado-bacen-2024"
+        },
+        {
+            "id": "14",
+            "nome": "Concurso Polícia Civil 2024",
+            "dataAplicacao": "2024-05-15",
+            "concurso": "Concurso Polícia Civil 2024",
+            "materias": ["Direito Penal", "Direito Constitucional", "Língua Portuguesa"],
+            "numeroQuestoes": 60,
+            "descricao": "Simulado preparatório para o concurso da Polícia Civil 2024.",
+            "link": "https://www.simulados.com.br/simulado-pc-2024"
+        },
+        {
+            "id": "15",
+            "nome": "Concurso Tribunal de Contas da União 2024",
+            "dataAplicacao": "2024-06-01",
+            "concurso": "Concurso Tribunal de Contas da União 2024",
+            "materias": ["Direito Administrativo", "Contabilidade", "Língua Portuguesa"],
+            "numeroQuestoes": 50,
+            "descricao": "Simulado preparatório para o concurso do Tribunal de Contas da União 2024.",
+            "link": "https://www.simulados.com.br/simulado-tcu-2024"
         }
-      ],
-      "id": "2e68"
-    }
-  ],
-  "cronogramas": []
+    ],
+    "mensagens": [{
+            "id": "1",
+            "mensagem": "Bem-vindo ao sistema! Não se esqueça de verificar os novos simulados disponíveis."
+        },
+        {
+            "id": "2",
+            "mensagem": "A sua inscrição para o concurso IBGE 2024 foi confirmada com sucesso!"
+        }
+    ],
+    "cargos": [{
+            "nome": "Policia Militar",
+            "materias": [{
+                    "nome": "Língua Portuguesa",
+                    "prioridade": 4,
+                    "livro": "Gramática Completa para Concursos e Vestibulares"
+                },
+                {
+                    "nome": "Raciocínio Lógico",
+                    "prioridade": 3,
+                    "livro": "Raciocínio Lógico e Matemática para Concursos"
+                },
+                {
+                    "nome": "Informática",
+                    "prioridade": 5,
+                    "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
+                },
+                {
+                    "nome": "Direito Administrativo",
+                    "prioridade": 1,
+                    "livro": "Manual de Direito Administrativo"
+                },
+                {
+                    "nome": "Direito Constitucional",
+                    "prioridade": 2,
+                    "livro": "Direitos Fundamentais e Controle de Constitucionalidade"
+                }
+            ],
+            "id": "616a"
+        },
+        {
+            "nome": "Auditor Fiscal",
+            "materias": [{
+                    "nome": "Língua Portuguesa",
+                    "prioridade": 5,
+                    "livro": "Gramática Completa para Concursos e Vestibulares"
+                },
+                {
+                    "nome": "Direito Tributário",
+                    "prioridade": 1,
+                    "livro": "Manual de Direito Tributário"
+                },
+                {
+                    "nome": "Raciocínio Lógico",
+                    "prioridade": 4,
+                    "livro": "Raciocínio Lógico e Matemática para Concursos"
+                },
+                {
+                    "nome": "Direito Administrativo",
+                    "prioridade": 3,
+                    "livro": "Manual de Direito Administrativo"
+                },
+                {
+                    "nome": "Contabilidade",
+                    "prioridade": 2,
+                    "livro": "Contabilidade Geral Para Concurso Público"
+                }
+            ],
+            "id": "a3bd"
+        },
+        {
+            "nome": "Analista Judiciario",
+            "materias": [{
+                    "nome": "Língua Portuguesa",
+                    "prioridade": 7,
+                    "livro": "Gramática Completa para Concursos e Vestibulares"
+                },
+                {
+                    "nome": "Raciocínio Lógico",
+                    "prioridade": 6,
+                    "livro": "RACIOCÍNIO LÓGICO E MATEMÁTICA PARA CONCURSOS"
+                },
+                {
+                    "nome": "Informática",
+                    "prioridade": 5,
+                    "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
+                },
+                {
+                    "nome": "Direito Administrativo",
+                    "prioridade": 3,
+                    "livro": "Manual de Direito Administrativo"
+                },
+                {
+                    "nome": "Direito Constitucional",
+                    "prioridade": 2,
+                    "livro": "Direitos fundamentais e controle de constitucionalidade - Estudos de Direito Constitucional"
+                },
+                {
+                    "nome": "Direito Penal",
+                    "prioridade": 1,
+                    "livro": "Direito Penal - Parte Geral"
+                },
+                {
+                    "nome": "Noções de Direito das Pessoas com Deficiência",
+                    "prioridade": 4,
+                    "livro": "DIREITOS HUMANOS DAS PESSOAS COM DEFICIÊNCIA"
+                }
+            ],
+            "id": "bf0c"
+        },
+        {
+            "nome": "Engenharia Civil",
+            "materias": [{
+                    "nome": "Estruturas",
+                    "prioridade": 1,
+                    "livro": "Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado"
+                },
+                {
+                    "nome": "Geotécnica",
+                    "prioridade": 2,
+                    "livro": "Fundamentos De Engenharia Geotécnica"
+                },
+                {
+                    "nome": "Fiscalização, Contratos e Licitações",
+                    "prioridade": 3,
+                    "livro": "Manual de Obras e Serviços de Engenharia: Fundamentos da Licitação e Contratação"
+                },
+                {
+                    "nome": "Planejamento e Orçamento",
+                    "prioridade": 4,
+                    "livro": "Planejamento e Controle de Obras"
+                },
+                {
+                    "nome": "Análise Estrutural",
+                    "prioridade": 5,
+                    "livro": "Análise Estrutural Usando Métodos Clássicos e Métodos Matriciais"
+                }
+            ],
+            "id": "2e68"
+        }
+    ],
+    "cronogramas": []
 }
