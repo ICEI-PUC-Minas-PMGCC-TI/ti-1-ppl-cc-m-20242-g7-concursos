@@ -1,4 +1,4 @@
-function FormaTemplate() {
+function FormaTemplate(cargos = []) {
     const dataMaxima = new Date();
     dataMaxima.setFullYear(dataMaxima.getFullYear() + 2);
     const dataMaximaFormatada = dataMaxima.toISOString().split('T')[0];
@@ -6,7 +6,10 @@ function FormaTemplate() {
     return `
         <form id="scheduleForm" class="container mt-4">
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="cargo" placeholder="ex.: Auditor Fiscal, Engenharia Civil" style="border-radius: 30px;">
+                <select class="form-select" id="cargo" style="border-radius: 30px;">
+                    <option value="">Selecione o cargo</option>
+                    ${cargos.map(cargo => `<option value="${cargo.nome}">${cargo.nome}</option>`).join('')}
+                </select>
                 <label for="cargo">Cargo</label>
             </div>
             <div class="form-floating mb-3">
@@ -38,28 +41,77 @@ function FormaTemplate() {
         <div id="cronogramaContainer" class="container mt-4"></div>
     `;
 }
-document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('#app').innerHTML = FormaTemplate();
 
-    const form = document.getElementById('scheduleForm');
-    const fecharBtn = document.getElementById('fecharCronogramasBtn');
-    const mostrarBtn = document.getElementById('showCronogramasButton');
+async function getCargoSelecionado(cargoNome) {
+    try {
+        const response = await fetch('http://localhost:3000/cargos');
+        if (!response.ok) {
+            throw new Error('Erro ao acessar o servidor.');
+        }
+        const cargos = await response.json();
+        return cargos.find(cargo => cargo.nome === cargoNome);
+    } catch (error) {
+        console.error('Erro ao buscar cargos:', error);
+        alert('Erro ao buscar cargos do servidor.');
+        return null;
+    }
+}
 
+
+document.addEventListener('DOMContentLoaded', async () => {
+    try {
+        const response = await fetch('http://localhost:3000/cargos');
+        if (!response.ok) throw new Error('Erro ao carregar os cargos.');
+        
+        const cargos = await response.json();
+        document.querySelector('#app').innerHTML = FormaTemplate(cargos);
+
+        const form = document.getElementById('scheduleForm');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const cargoNome = document.getElementById('cargo').value;
+            if (!cargoNome) {
+                alert('Por favor, selecione um cargo.');
+                return;
+            }
+
+            const horasPorDia = parseInt(document.getElementById('horas').value, 10);
+            const dataProva = new Date(document.getElementById('dataProva').value);
+            const diasSelecionados = Array.from(document.querySelectorAll('#diasDisponiveis input[type="checkbox"]:checked'))
+                .map(checkbox => parseInt(checkbox.value, 10));
+
+            if (diasSelecionados.length === 0) {
+                alert('Selecione pelo menos um dia para estudar.');
+                return;
+            }
+
+            const cargoSelecionado = await getCargoSelecionado(cargoNome);
+            if (!cargoSelecionado) {
+                alert('Erro: Cargo não encontrado.');
+                return;
+            }
+
+            const cronograma = geraSchedule(cargoSelecionado, horasPorDia, dataProva, diasSelecionados);
+            renderizaCronograma(cronograma, cargoNome);
+        });
+
+        const showButton = document.getElementById('showCronogramasButton');
+        showButton.addEventListener('click', mostrarCronogramas);
+    } catch (error) {
+        console.error('Erro ao inicializar a aplicação:', error);
+        alert('Erro ao carregar os dados iniciais.');
+    }
+
+
+    // Adiciona o evento para o envio do formulário
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
+        // Lógica do formulário (verificação de dados)...
     });
-
-    if (fecharBtn) {
-        fecharBtn.addEventListener('click', fecharTodosCronogramas);
-    }
-
-    if (mostrarBtn) {
-        mostrarBtn.addEventListener('click', mostrarCronogramas);
-    }
 });
 
-
-
+// Função para gerar o cronograma
 function geraSchedule(cargoSelecionado, horasPorDia, dataProva, diasSelecionados) {
     const cronograma = [];
     let diaAtual = new Date();
@@ -186,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function renderizaCronograma(cronograma, cargoNome) {
     const cronogramaContainer = document.getElementById('cronogramaContainer');
     cronogramaContainer.innerHTML = `
-        <h2 class='mb-4'>Seu Cronograma de Estudos</h2>
+        <h2 class='mb-4'>Seu Cronograma de Estudos para ${cargoNome}</h2>
         <button id="clearCronogramaButton" class="btn btn-danger mb-4">Apagar Cronograma</button>
         <button id="saveCronogramaButton" class="btn btn-success mb-4">Salvar Cronograma</button>
     `;
@@ -209,9 +261,11 @@ function renderizaCronograma(cronograma, cargoNome) {
         cronogramaContainer.appendChild(div);
     });
 
+    // Função para salvar cronograma
     const saveButton = document.getElementById('saveCronogramaButton');
     saveButton.addEventListener('click', () => salvarCronograma(cronograma, cargoNome));
 
+    // Função para limpar cronograma
     const clearButton = document.getElementById('clearCronogramaButton');
     clearButton.addEventListener('click', limpaCronograma);
 }

@@ -568,136 +568,691 @@
             "mensagem": "A sua inscrição para o concurso IBGE 2024 foi confirmada com sucesso!"
         }
     ],
-    "cargos": [{
-            "nome": "Policia Militar",
-            "materias": [{
-                    "nome": "Língua Portuguesa",
-                    "prioridade": 4,
-                    "livro": "Gramática Completa para Concursos e Vestibulares"
-                },
-                {
-                    "nome": "Raciocínio Lógico",
-                    "prioridade": 3,
-                    "livro": "Raciocínio Lógico e Matemática para Concursos"
-                },
-                {
-                    "nome": "Informática",
-                    "prioridade": 5,
-                    "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
-                },
-                {
-                    "nome": "Direito Administrativo",
-                    "prioridade": 1,
-                    "livro": "Manual de Direito Administrativo"
-                },
-                {
-                    "nome": "Direito Constitucional",
-                    "prioridade": 2,
-                    "livro": "Direitos Fundamentais e Controle de Constitucionalidade"
-                }
-            ],
-            "id": "616a"
+    "cargos": [
+    {
+      "nome": "Agente Comercial",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 1,
+          "livro": "Gramática Completa para Concursos e Vestibulares de Celso Cunha"
         },
         {
-            "nome": "Auditor Fiscal",
-            "materias": [{
-                    "nome": "Língua Portuguesa",
-                    "prioridade": 5,
-                    "livro": "Gramática Completa para Concursos e Vestibulares"
-                },
-                {
-                    "nome": "Direito Tributário",
-                    "prioridade": 1,
-                    "livro": "Manual de Direito Tributário"
-                },
-                {
-                    "nome": "Raciocínio Lógico",
-                    "prioridade": 4,
-                    "livro": "Raciocínio Lógico e Matemática para Concursos"
-                },
-                {
-                    "nome": "Direito Administrativo",
-                    "prioridade": 3,
-                    "livro": "Manual de Direito Administrativo"
-                },
-                {
-                    "nome": "Contabilidade",
-                    "prioridade": 2,
-                    "livro": "Contabilidade Geral Para Concurso Público"
-                }
-            ],
-            "id": "a3bd"
+          "nome": "Língua Inglesa",
+          "prioridade": 2,
+          "livro": "Inglês para Concursos de Maria Luiza Braga"
         },
         {
-            "nome": "Analista Judiciario",
-            "materias": [{
-                    "nome": "Língua Portuguesa",
-                    "prioridade": 7,
-                    "livro": "Gramática Completa para Concursos e Vestibulares"
-                },
-                {
-                    "nome": "Raciocínio Lógico",
-                    "prioridade": 6,
-                    "livro": "RACIOCÍNIO LÓGICO E MATEMÁTICA PARA CONCURSOS"
-                },
-                {
-                    "nome": "Informática",
-                    "prioridade": 5,
-                    "livro": "Série Provas & Concursos - Informática para Concursos - Teoria e Questões"
-                },
-                {
-                    "nome": "Direito Administrativo",
-                    "prioridade": 3,
-                    "livro": "Manual de Direito Administrativo"
-                },
-                {
-                    "nome": "Direito Constitucional",
-                    "prioridade": 2,
-                    "livro": "Direitos fundamentais e controle de constitucionalidade - Estudos de Direito Constitucional"
-                },
-                {
-                    "nome": "Direito Penal",
-                    "prioridade": 1,
-                    "livro": "Direito Penal - Parte Geral"
-                },
-                {
-                    "nome": "Noções de Direito das Pessoas com Deficiência",
-                    "prioridade": 4,
-                    "livro": "DIREITOS HUMANOS DAS PESSOAS COM DEFICIÊNCIA"
-                }
-            ],
-            "id": "bf0c"
+          "nome": "Matemática",
+          "prioridade": 3,
+          "livro": "Matemática para Concursos de Gilmar Ferreira"
         },
         {
-            "nome": "Engenharia Civil",
-            "materias": [{
-                    "nome": "Estruturas",
-                    "prioridade": 1,
-                    "livro": "Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado"
-                },
-                {
-                    "nome": "Geotécnica",
-                    "prioridade": 2,
-                    "livro": "Fundamentos De Engenharia Geotécnica"
-                },
-                {
-                    "nome": "Fiscalização, Contratos e Licitações",
-                    "prioridade": 3,
-                    "livro": "Manual de Obras e Serviços de Engenharia: Fundamentos da Licitação e Contratação"
-                },
-                {
-                    "nome": "Planejamento e Orçamento",
-                    "prioridade": 4,
-                    "livro": "Planejamento e Controle de Obras"
-                },
-                {
-                    "nome": "Análise Estrutural",
-                    "prioridade": 5,
-                    "livro": "Análise Estrutural Usando Métodos Clássicos e Métodos Matriciais"
-                }
-            ],
-            "id": "2e68"
+          "nome": "Atualidades do Mercado Financeiro",
+          "prioridade": 4,
+          "livro": "Mercado Financeiro: Produtos e Serviços de Edivaldo Medeiros"
+        },
+        {
+          "nome": "Estatística",
+          "prioridade": 5,
+          "livro": "Probabilidade e Estatística para Concursos de André Buffara"
+        },
+        {
+          "nome": "Conhecimentos Bancários",
+          "prioridade": 6,
+          "livro": "Manual de Conhecimentos Bancários de Erivaldo Alves"
+        },
+        {
+          "nome": "Informática",
+          "prioridade": 7,
+          "livro": "Informática para Concursos de João Antonio Lima"
         }
-    ],
-    "cronogramas": []
+      ],
+      "id": "a1bc"
+    },
+    {
+      "nome": "Administração",
+      "materias": [
+        {
+          "nome": "Organização e Estrutura do Estado",
+          "prioridade": 1,
+          "livro": "Administração Pública: Teoria e Prática de Maria Sylvia Zanella Di Pietro"
+        },
+        {
+          "nome": "Reformas e Evolução da Adm. Pública",
+          "prioridade": 2,
+          "livro": "Gestão Pública Contemporânea de José Matias-Pereira"
+        },
+        {
+          "nome": "Gestão da Qualidade na Adm. Pública",
+          "prioridade": 3,
+          "livro": "Gestão da Qualidade Total no Setor Público de Vicente Falconi"
+        },
+        {
+          "nome": "Governança, Governabilidade e Accountability",
+          "prioridade": 4,
+          "livro": "Governança Pública para o Século XXI de Melania Amorim"
+        },
+        {
+          "nome": "Governo Eletrônico e Transparência",
+          "prioridade": 5,
+          "livro": "e-Gov e Transparência Pública de Fernando Coelho"
+        },
+        {
+          "nome": "Ética no Serviço Público",
+          "prioridade": 6,
+          "livro": "Ética e Administração Pública de Heloisa Martins"
+        }
+      ],
+      "id": "adm1"
+    },
+    {
+      "nome": "Técnico Judiciário",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 1,
+          "livro": "Gramática Completa para Concursos de Evanildo Bechara"
+        },
+        {
+          "nome": "Matemática e Raciocínio-Lógico",
+          "prioridade": 2,
+          "livro": "Matemática e Raciocínio Lógico para Concursos de Mauro Sotero"
+        },
+        {
+          "nome": "Legislação",
+          "prioridade": 3,
+          "livro": "Legislação Específica para Concursos de Luiz Flávio Gomes"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 4,
+          "livro": "Direito Constitucional Descomplicado de Vicente Paulo e Marcelo Alexandrino"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 5,
+          "livro": "Direito Administrativo Fácil de Matheus Carvalho"
+        },
+        {
+          "nome": "Administração Pública",
+          "prioridade": 6,
+          "livro": "Fundamentos de Administração Pública de José Matias-Pereira"
+        },
+        {
+          "nome": "Direito do Trabalho",
+          "prioridade": 7,
+          "livro": "Direito do Trabalho Simplificado de Vólia Bomfim Cassar"
+        },
+        {
+          "nome": "Direito Processual do Trabalho",
+          "prioridade": 8,
+          "livro": "Direito Processual do Trabalho em Foco de Renato Saraiva"
+        }
+      ],
+      "id": "tj1"
+    },
+    {
+      "nome": "Recenseador IBGE",
+      "materias": [
+        {
+          "nome": "Matemática",
+          "prioridade": 1,
+          "livro": "Matemática Básica para Concursos de Carlos Henrique Corrêa"
+        },
+        {
+          "nome": "Português",
+          "prioridade": 2,
+          "livro": "Português Essencial para Concursos de Fernando Pestana"
+        },
+        {
+          "nome": "Ética no Serviço Público",
+          "prioridade": 3,
+          "livro": "Ética no Serviço Público para Concursos de Luiz Antônio Alves"
+        },
+        {
+          "nome": "Conhecimentos Técnicos IBGE",
+          "prioridade": 4,
+          "livro": "Manual de Recenseador do IBGE de IBGE"
+        }
+      ],
+      "id": "ibge1"
+    },
+    {
+      "nome": "Soldado PF",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 1,
+          "livro": "Gramática Aplicada à Polícia Federal de Celso Luft"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 2,
+          "livro": "Direito Administrativo para Concursos Policiais de Matheus Carvalho"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 3,
+          "livro": "Constituição para a Polícia Federal de Vicente Paulo e Marcelo Alexandrino"
+        },
+        {
+          "nome": "Direito Penal",
+          "prioridade": 4,
+          "livro": "Direito Penal Aplicado à PF de Renato Brasileiro de Lima"
+        },
+        {
+          "nome": "Legislação Especial",
+          "prioridade": 5,
+          "livro": "Legislação Penal Especial para a Polícia Federal de Fernando Capez"
+        },
+        {
+          "nome": "Estatística",
+          "prioridade": 6,
+          "livro": "Probabilidade e Estatística de Carlos Murad"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 7,
+          "livro": "Raciocínio Lógico para Concursos de Sérgio Carvalho"
+        }
+      ],
+      "id": "pf1"
+    },
+    {
+      "nome": "Procurador MF",
+      "materias": [
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 1,
+          "livro": "Direito Constitucional Avançado de Alexandre de Moraes"
+        },
+        {
+          "nome": "Direito Econômico e de Proteção ao Consumidor",
+          "prioridade": 2,
+          "livro": "Direito Econômico e Consumidor de Celso Antonio Pacheco Fiorillo"
+        },
+        {
+          "nome": "Direito Penal",
+          "prioridade": 3,
+          "livro": "Manual de Direito Penal para Procuradores de Renato Brasileiro de Lima"
+        },
+        {
+          "nome": "Direito Processual Penal",
+          "prioridade": 4,
+          "livro": "Direito Processual Penal Sistematizado de Eugênio Pacelli de Oliveira"
+        },
+        {
+          "nome": "Direito Previdenciário",
+          "prioridade": 5,
+          "livro": "Direito Previdenciário Atualizado de Frederico Amado"
+        }
+      ],
+      "id": "mf1"
+    },
+    {
+      "nome": "Técnico Bancário",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 1,
+          "livro": "Gramática Essencial para Bancários de José Carlos de Azeredo"
+        },
+        {
+          "nome": "Matemática Financeira",
+          "prioridade": 2,
+          "livro": "Matemática Financeira para Concursos de Ricardo Pereira"
+        },
+        {
+          "nome": "Conhecimentos Bancários",
+          "prioridade": 3,
+          "livro": "Manual de Conhecimentos Bancários de Erivaldo Alves"
+        },
+        {
+          "nome": "Estatística",
+          "prioridade": 4,
+          "livro": "Estatística Aplicada a Bancos de Carmem Miranda"
+        },
+        {
+          "nome": "Informática",
+          "prioridade": 5,
+          "livro": "Informática para Bancários de Emerson Furtado"
+        },
+        {
+          "nome": "Atendimento Bancário",
+          "prioridade": 6,
+          "livro": "Atendimento ao Cliente no Setor Bancário de Cláudia Mônica"
+        },
+        {
+          "nome": "Tecnologia da Informação",
+          "prioridade": 7,
+          "livro": "Tecnologia da Informação para Bancos de José Carlos Luxardo"
+        }
+      ],
+      "id": "tb1"
+    },
+    {
+      "nome": "Técnico do Seguro Social",
+      "materias": [
+        {
+          "nome": "Português",
+          "prioridade": 1,
+          "livro": "Gramática para Concursos do INSS de Fernando Pestana"
+        },
+        {
+          "nome": "Ética na Administração Pública",
+          "prioridade": 2,
+          "livro": "Ética na Gestão Pública de Heloisa Martins"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 3,
+          "livro": "Direito Constitucional para Concursos Públicos de Vicente Paulo e Marcelo Alexandrino"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 4,
+          "livro": "Direito Administrativo Simplificado de Matheus Carvalho"
+        },
+        {
+          "nome": "Informática",
+          "prioridade": 5,
+          "livro": "Informática para o INSS de João Antonio Lima"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 6,
+          "livro": "Raciocínio Lógico para Concursos de Sérgio Carvalho"
+        },
+        {
+          "nome": "Direito Previdenciário",
+          "prioridade": 7,
+          "livro": "Direito Previdenciário Descomplicado de Frederico Amado"
+        },
+        {
+          "nome": "Direito Tributário",
+          "prioridade": 8,
+          "livro": "Manual de Direito Tributário de Leandro Paulsen"
+        },
+        {
+          "nome": "Serviço Social",
+          "prioridade": 9,
+          "livro": "Serviço Social e Políticas Públicas de Marilda Iamamoto"
+        },
+        {
+          "nome": "Estatuto da Pessoa com Deficiência - Lei nº 13.146 de 2015",
+          "prioridade": 10,
+          "livro": "Estatuto da Pessoa com Deficiência Comentado de Romeu Kazumi Sassaki"
+        },
+        {
+          "nome": "Legislação Federal",
+          "prioridade": 11,
+          "livro": "Legislação Federal Aplicada ao INSS de Paulo Estrella"
+        }
+      ],
+      "id": "tss1"
+    },
+    {
+      "nome": "Analista Tributário",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 1,
+          "livro": "Gramática Completa para Concursos e Vestibulares de Celso Cunha"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 2,
+          "livro": "Manual de Direito Administrativo de Hely Lopes Meirelles"
+        },
+        {
+          "nome": "Língua Inglesa",
+          "prioridade": 3,
+          "livro": "Inglês para Concursos de Renato Alves"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 4,
+          "livro": "Direitos Fundamentais e Controle de Constitucionalidade de Gilmar Mendes"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 5,
+          "livro": "Raciocínio Lógico e Algebrista Volume 1 Teoria e Exercícios de Fixação de Paulo Câmara"
+        },
+        {
+          "nome": "Direito Tributário",
+          "prioridade": 6,
+          "livro": "Manual de Direito Tributário de Ricardo Alexandre"
+        },
+        {
+          "nome": "Contabilidade",
+          "prioridade": 7,
+          "livro": "Contabilidade Geral Para Concurso Público de José Carlos Marion"
+        }
+      ],
+      "id": "at2"
+    },
+    {
+      "nome": "Especialista em Regulamentação",
+      "materias": [
+        {
+          "nome": "Português",
+          "prioridade": 1,
+          "livro": "Gramática Oficial para Regulamentação de Evanildo Bechara"
+        },
+        {
+          "nome": "Inglês",
+          "prioridade": 2,
+          "livro": "Inglês Técnico para Regulamentação de João Garcia"
+        },
+        {
+          "nome": "Direito Constitucional e Administrativo",
+          "prioridade": 3,
+          "livro": "Direito Público para Regulamentação de Pedro Lenza"
+        },
+        {
+          "nome": "Políticas Públicas e Gestão Pública",
+          "prioridade": 4,
+          "livro": "Políticas Públicas em Regulação de Luis Fiuza"
+        },
+        {
+          "nome": "Regulação",
+          "prioridade": 5,
+          "livro": "Fundamentos de Regulação de Eduardo Jordão"
+        },
+        {
+          "nome": "Vigilância Sanitária",
+          "prioridade": 6,
+          "livro": "Guia de Vigilância Sanitária de Anvisa"
+        }
+      ],
+      "id": "er1"
+    },
+    {
+      "nome": "Auditor(a) Fiscal",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 1,
+          "livro": "Gramática Completa para Concursos e Vestibulares de Celso Cunha"
+        },
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 2,
+          "livro": "Manual de Direito Administrativo de Matheus Carvalho"
+        },
+        {
+          "nome": "Língua Inglesa",
+          "prioridade": 3,
+          "livro": "Inglês para Concursos de Maria Luiza Braga"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 4,
+          "livro": "Direitos Fundamentais e Controle de Constitucionalidade de Gilmar Mendes"
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "prioridade": 5,
+          "livro": "Raciocínio Lógico para Concursos de Sérgio Carvalho"
+        },
+        {
+          "nome": "Direito Previdenciário",
+          "prioridade": 6,
+          "livro": "Manual de Direito Previdenciário de Frederico Amado"
+        },
+        {
+          "nome": "Estatística",
+          "prioridade": 7,
+          "livro": "Estatística para Concursos de Carlos Murad"
+        },
+        {
+          "nome": "Direito Tributário",
+          "prioridade": 8,
+          "livro": "Manual de Direito Tributário de Eduardo Sabbag"
+        },
+        {
+          "nome": "Economia e Finanças Públicas",
+          "prioridade": 9,
+          "livro": "Economia para Concursos de William Eid"
+        },
+        {
+          "nome": "Legislação Tributária",
+          "prioridade": 10,
+          "livro": "Legislação Tributária para Concursos de Hugo de Brito Machado"
+        },
+        {
+          "nome": "Administração Geral",
+          "prioridade": 11,
+          "livro": "Administração para Concursos de Maximiano"
+        },
+        {
+          "nome": "Legislação Aduaneira",
+          "prioridade": 12,
+          "livro": "Legislação Aduaneira para Concursos de Antônio Carlos Alencar Junior"
+        },
+        {
+          "nome": "Administração Pública",
+          "prioridade": 13,
+          "livro": "Administração Pública para Concursos de José Matias-Pereira"
+        },
+        {
+          "nome": "Auditoria",
+          "prioridade": 14,
+          "livro": "Manual de Auditoria de Cláudio Pinheiro"
+        },
+        {
+          "nome": "Contabilidade Geral e Pública",
+          "prioridade": 15,
+          "livro": "Contabilidade Geral e Pública para Concursos de Fabrício de Souza"
+        },
+        {
+          "nome": "Fluência em Dados",
+          "prioridade": 16,
+          "livro": "Fluência em Dados para Concursos de Ricardo Tayrone"
+        }
+      ],
+      "id": "a4df"
+    },
+    {
+      "nome": "Delegado Militar",
+      "materias": [
+        {
+          "nome": "Direito Administrativo",
+          "prioridade": 1,
+          "livro": "Manual de Direito Administrativo de Matheus Carvalho"
+        },
+        {
+          "nome": "Direito Civil",
+          "prioridade": 2,
+          "livro": "Direito Civil - Parte Geral de Maria Helena Diniz"
+        },
+        {
+          "nome": "Direito Constitucional",
+          "prioridade": 3,
+          "livro": "Direitos Fundamentais e Controle de Constitucionalidade de Gilmar Mendes"
+        },
+        {
+          "nome": "Direito Penal",
+          "prioridade": 4,
+          "livro": "Direito Penal - Parte Geral de Rogério Greco"
+        },
+        {
+          "nome": "Direito Processual Penal",
+          "prioridade": 5,
+          "livro": "Direito Processual Penal - Teoria e Prática de Renato Brasileiro"
+        },
+        {
+          "nome": "Direitos Humanos",
+          "prioridade": 6,
+          "livro": "Direitos Humanos - Teoria e Prática de Flávia Piovesan"
+        },
+        {
+          "nome": "Medicina Legal",
+          "prioridade": 7,
+          "livro": "Manual de Medicina Legal de Genival Veloso de França"
+        },
+        {
+          "nome": "Noções de Criminologia",
+          "prioridade": 8,
+          "livro": "Introdução à Criminologia de Salo de Carvalho"
+        }
+      ],
+      "id": "a5fe"
+    },
+    {
+      "nome": "Enfermeiro(a)",
+      "materias": [
+        {
+          "nome": "Língua Portuguesa",
+          "prioridade": 1,
+          "livro": "Gramática Completa para Concursos e Vestibulares de Celso Cunha"
+        },
+        {
+          "nome": "Saúde Pública",
+          "prioridade": 2,
+          "livro": "Saúde Pública para Concursos de Cesarino Siqueira"
+        },
+        {
+          "nome": "Legislação do SUS",
+          "prioridade": 3,
+          "livro": "Manual de Legislação do SUS de Luiz Gustavo Haddad"
+        },
+        {
+          "nome": "Ética",
+          "prioridade": 4,
+          "livro": "Ética no Serviço de Saúde de Van Rensselaer Potter"
+        },
+        {
+          "nome": "Anatomia",
+          "prioridade": 5,
+          "livro": "Anatomia para Concursos de Leonardo da Vinci"
+        },
+        {
+          "nome": "Microbiologia",
+          "prioridade": 6,
+          "livro": "Microbiologia para Concursos de Alcides Duarte"
+        },
+        {
+          "nome": "Parasitologia",
+          "prioridade": 7,
+          "livro": "Parasitologia para Concursos de Reinaldo Gomes"
+        },
+        {
+          "nome": "Procedimentos de Enfermagem",
+          "prioridade": 8,
+          "livro": "Procedimentos de Enfermagem para Concursos de Christiane Cardoso"
+        },
+        {
+          "nome": "Sistematização da Assistência de Enfermagem",
+          "prioridade": 9,
+          "livro": "Sistematização da Assistência de Enfermagem de Rosely T. W. Schmidt"
+        },
+        {
+          "nome": "Farmacologia",
+          "prioridade": 10,
+          "livro": "Farmacologia para Concursos de Ricardo Mazzucchi"
+        },
+        {
+          "nome": "Tuberculose, Hanseníase, Dengue, Sífilis e COVID",
+          "prioridade": 11,
+          "livro": "Doenças Infectocontagiosas para Concursos de Robson Melo"
+        },
+        {
+          "nome": "Saúde da Mulher, Criança e dos Idosos",
+          "prioridade": 12,
+          "livro": "Saúde da Mulher, Criança e dos Idosos de Maria Cecília de Souza Minayo"
+        },
+        {
+          "nome": "Imunização",
+          "prioridade": 13,
+          "livro": "Imunização para Concursos de Carlos Heitor"
+        },
+        {
+          "nome": "Biossegurança",
+          "prioridade": 14,
+          "livro": "Biossegurança na Enfermagem de Elza Leite"
+        }
+      ],
+      "id": "a6gf"
+    },
+    {
+      "nome": "Engenharia Civil",
+      "materias": [
+        {
+          "nome": "Estruturas",
+          "prioridade": 1,
+          "livro": "Cálculo e Detalhamento de Estruturas Usuais de Concreto Armado de João Carlos"
+        },
+        {
+          "nome": "Geotecnia",
+          "prioridade": 2,
+          "livro": "Fundamentos de Engenharia Geotécnica de Milton Vargas"
+        },
+        {
+          "nome": "Desenho na Engenharia Civil (AutoCAD, Desenho Técnico)",
+          "prioridade": 3,
+          "livro": "AutoCAD para Engenharia Civil de Jay Heizer"
+        },
+        {
+          "nome": "Topografia",
+          "prioridade": 4,
+          "livro": "Topografia para Engenharia de Bruno Campos"
+        },
+        {
+          "nome": "Estradas e Transporte",
+          "prioridade": 5,
+          "livro": "Estradas e Transporte - Fundamentos de André Cassiano"
+        },
+        {
+          "nome": "Arquitetura na Engenharia Civil",
+          "prioridade": 6,
+          "livro": "Arquitetura para Engenharia Civil de Marcos Barros"
+        },
+        {
+          "nome": "Segurança e Higiene do Trabalho",
+          "prioridade": 7,
+          "livro": "Segurança no Trabalho para Engenharia de Ricardo Sant'Anna"
+        },
+        {
+          "nome": "Edificação",
+          "prioridade": 8,
+          "livro": "Edificação para Engenharia Civil de Antônio Pereira"
+        },
+        {
+          "nome": "Hidráulica na Engenharia Civil",
+          "prioridade": 9,
+          "livro": "Hidráulica para Engenharia de José Carlos Carielo"
+        },
+        {
+          "nome": "Instalações em Engenharia Civil",
+          "prioridade": 10,
+          "livro": "Instalações para Engenharia Civil de Flávio Roberto Braga"
+        },
+        {
+          "nome": "Drenagem",
+          "prioridade": 11,
+          "livro": "Drenagem para Engenharia Civil de Valderes Oliveira"
+        },
+        {
+          "nome": "Saneamento Geral",
+          "prioridade": 12,
+          "livro": "Saneamento para Engenharia Civil de Vicente Deliberato"
+        },
+        {
+          "nome": "Planejamento e Controle de Obras",
+          "prioridade": 13,
+          "livro": "Planejamento e Controle de Obras de Liliane Bortoloti"
+        },
+        {
+          "nome": "Normas e Legislações",
+          "prioridade": 14,
+          "livro": "Normas Técnicas para Engenharia Civil de Fernando Pellegrini"
+        }
+      ],
+      "id": "a7hf"
+    }
+  ],
+  "cronogramas": []
 }
