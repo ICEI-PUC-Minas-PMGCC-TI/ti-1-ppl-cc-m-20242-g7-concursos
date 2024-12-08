@@ -7,8 +7,7 @@ async function buscarConcursos() {
     const localizacao = document.getElementById('localizacao').value.toLowerCase();
 
     try {
-        // Fetch dos dados do db.json
-        const response = await fetch('http://localhost:3000/concursos'); 
+        const response = await fetch('http://localhost:3000/concursos');
         const concursos = await response.json();
 
         // Filtros
@@ -16,12 +15,12 @@ async function buscarConcursos() {
             return (
                 (!nome || concurso.nome.toLowerCase().includes(nome)) &&
                 (!data || concurso.data === data) &&
-                (!nivelEnsino || concurso.nivelEnsino.toLowerCase() === nivelEnsino) &&
+                (!nivelEnsino || concurso.nivelEnsino.toLowerCase().includes(nivelEnsino)) &&
                 (!localizacao || concurso.localizacao.toLowerCase().includes(localizacao))
             );
         });
 
-        // Renderizar resultados
+
         const listaResultados = document.getElementById('lista-resultados');
         listaResultados.innerHTML = '';
 
