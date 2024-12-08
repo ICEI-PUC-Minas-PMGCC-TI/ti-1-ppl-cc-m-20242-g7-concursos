@@ -312,7 +312,7 @@ Esta seção apresenta as funcionalidades do nosso site.
 
   Permite a inclusão, leitura, alteração e exclusão dos livros para o sistema
 
-  * **Estrutura de dados:** [Livros](#ti_ed_livros)
+  * **Estrutura de dados:** [Livros](#estrutura-de-dados-livros)
   * **Instruções de acesso:**
     * Abra o site 
     * Acesse o menu principal e escolha a opção Cadastro de Livros
@@ -324,7 +324,7 @@ Esta seção apresenta as funcionalidades do nosso site.
   
   Permite a pesquisa dos livros cadastrados.
 
-  * **Estrutura de dados:** [Livros](#estruturas_de_dados:__livros)
+  * **Estrutura de dados:** [Livros](#estruturas-de-dados-livros)
   * **Instruções de acesso:**
     * Abra o site. 
     * Acesse o menu principal e escolha a opção Biblioteca
@@ -332,13 +332,53 @@ Esta seção apresenta as funcionalidades do nosso site.
 
   ![Tela de Funcionalidade](images/funcionalidade_ExebicaoLivros.png)
 
+  #### Funcionalidade 3 - Simulados
 
-  > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-  >
-  > Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
-  >
-  > Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+  Mostra todos os simulados para determinados concursos.
 
+  * **Estrutura de dados:** [Simulados](#estrutura-de-dados-simulados)
+  * **Instruções de acesso:**
+    * Abra o site.
+    * Acesse o menu principal e escolha a opção simulados.
+  * **Tela da funcionalidade**:
+
+  ![Tela de Funcionalidade](images/funcionalidade_Simulados.png)  
+
+  #### Funcionalidade 4 - Cadastro dos Concursos
+
+  Permite o cadastro de novos concursos.
+
+  * **Estrutura de dados:** [Concursos](#estrutura-de-dados-concursos)
+  * **Instruções de acesso:**
+    * Abra o site.
+    * Acesse o menu principal e escolha a opção Cadastro de Concursos.
+  * **Tela da funcionalidade**:
+
+  ![Tela da Funcionalidade](images/funcionalidade_CadastraConcursos.png)
+
+  #### Funcionalidade 5 - Exebição dos Concursos
+
+  Mostra todos os concursos cadastrados.
+
+  * **Estrutura de dados:** [Concursos](#estrutura-de-dados-concursos)
+  * **Instruções de acesso:**
+    * Abra o site.
+    * Acesse o menu principal e escolha a opção Concursos.
+  * **Tela da funcionalidade**:
+
+  ![Tela da Funcionalidade](images/funcionalidade_MostraConcursos.png)
+
+  #### Funcionalidade 6 - Cronograma
+
+  Exibe os cronogramas cadastrados e permite o cadastro também.
+
+  * **Estrutura de dados:** [Carga Hóraria](#estrutura-de-dados-carga-horária)
+  * **Instruções de acesso:**
+    * Abra o site.
+    * Acesse o menu principal e escolha a opção Cronograma.
+  * **Tela da funcionalidade**:
+
+  ![Tela da Funcionalidade](images/funcionalidade_Cronograma.png)
 
 
   ## Estruturas de Dados
@@ -375,10 +415,10 @@ Esta seção apresenta as funcionalidades do nosso site.
     "descricao": "Esta edição já está de acordo com a nova ortografia...",
     "link": "https://www.amazon.com.br/Matem%C3%A1tica-L%C3%B3gica-Para-Concursos..."
   }
-   
+
   ```
 
-##### Estrutura de Dados - Usuários
+##### Estrutura de Dados: Usuários
 
 Registro dos usuários do sistema utilizados para login e para o perfil do sistema
 
@@ -406,7 +446,7 @@ Registro dos usuários do sistema utilizados para login e para o perfil do siste
     }
 ```
 
-##### Estrutura de Dados - Concursos
+##### Estrutura de Dados: Concursos
 
 Lista de concursos disponibilizados
 
@@ -465,7 +505,7 @@ Lista de concursos disponibilizados
     }
 ```
 
-##### Estrutura de Dados - Simulados
+##### Estrutura de Dados: Simulados
 
 Lista de simulados disponíveis na plataforma
 
@@ -502,7 +542,7 @@ Lista de simulados disponíveis na plataforma
     }
 ```
 
-##### Estrutura de Dados - Carga Horária
+##### Estrutura de Dados: Carga Horária
 
 Lista de carga horárias disponíveis no sistema
 
