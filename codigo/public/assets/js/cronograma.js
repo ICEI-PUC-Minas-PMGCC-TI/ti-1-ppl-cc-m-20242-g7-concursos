@@ -23,11 +23,11 @@ function FormaTemplate(cargos = []) {
             <fieldset class="row mb-3">
                 <legend class="col-form-label col-sm-2 pt-0">Dias para estudar</legend>
                 <div class="col-sm-10" id="diasDisponiveis">
-                    ${['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo']
+                    ${['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado', 'Domingo']
                         .map((dia, i) => `
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="${i === 6 ? 0 : i + 1}" id="${dia.toLowerCase()}">
-                                <label class="form-check-label" for="${dia.toLowerCase()}">${dia}-Feira</label>
+                                <label class="form-check-label" for="${dia.toLowerCase()}">${dia}</label>
                             </div>
                         `).join('')}
                 </div>
